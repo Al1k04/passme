@@ -1,0 +1,1853 @@
+[
+  {
+    "id": 1,
+    "slug": "a-way-out",
+    "title": "A Way Out",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/473/473bd9a5e9522629d6cb28b701fb836a.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 2,
+    "slug": "age-of-empires-ii-definitive-edition",
+    "title": "Age of Empires II: Definitive Edition",
+    "price": 45,
+    "image": "https://media.rawg.io/media/games/945/9455733af10406794b0c1b8d117bca76.jpg",
+    "genres": ["Strategy"],
+    "oldPrice": 70
+  },
+  {
+    "id": 3,
+    "slug": "alan-wake-2",
+    "title": "Alan Wake 2",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/5b9/5b963d7633cd640fa2dbc4069d1c6377.jpg",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 4,
+    "slug": "ark-survival-evolved",
+    "title": "ARK: Survival Evolved",
+    "price": 30,
+    "image": "https://media.rawg.io/media/games/58a/58ac7f6569259dcc0b60b921869b19fc.jpg",
+    "genres": ["Adventure", "Action", "RPG", "Indie", "Massively Multiplayer"],
+    "oldPrice": 55
+  },
+  {
+    "id": 5,
+    "slug": "assassins-creed-iii-remastered",
+    "title": "Assassin’s Creed III Remastered",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/c69/c69e0952cdea6baa7cf0739b2e7792fb.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 6,
+    "slug": "assassins-creed-iv-black-flag",
+    "title": "Assassin’s Creed IV: Black Flag",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/849/849414b978db37d4563ff9e4b0d3a787.jpg",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 7,
+    "slug": "assassins-creed-mirage",
+    "title": "Assassin’s Creed Mirage",
+    "price": 39,
+    "image": "https://media.rawg.io/media/games/fbd/fbd0128013b7965904be571e75fb30c0.jpg",
+    "genres": ["Action"],
+    "oldPrice": 64
+  },
+  {
+    "id": 8,
+    "slug": "assassins-creed-odyssey-deluxe-edition",
+    "title": "Assassin’s Creed Odyssey Deluxe Edition",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0001-CUSA09311_00-EDITIONDELUXE000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 44
+  },
+  {
+    "id": 9,
+    "slug": "assassins-creed-origins-gold-edition",
+    "title": "Assassin’s Creed Origins Gold Edition",
+    "price": 18,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0001-CUSA05855_00-EDITIONGLDACE000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 43
+  },
+  {
+    "id": 10,
+    "slug": "assassins-creed-shadows",
+    "title": "Assassin’s Creed Shadows",
+    "price": 79,
+    "image": "https://media.rawg.io/media/games/526/526881e0f5f8c1550e51df3801f96ea3.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 104
+  },
+  {
+    "id": 11,
+    "slug": "assassins-creed-syndicate",
+    "title": "Assassin’s Creed Syndicate",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/9f1/9f189c639f70f91166df415811a8b525.jpg",
+    "genres": ["Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 12,
+    "slug": "assassins-creed-the-ezio-collection",
+    "title": "Assassin’s Creed The Ezio Collection",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/efd/efd50d3cf0ebe96aa77b81e29ea3540f.jpg",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 13,
+    "slug": "assassins-creed-valhalla",
+    "title": "Assassin’s Creed Valhalla",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/934/9346092ae11bf7582c883869468171cc.jpg",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 40
+  },
+  {
+    "id": 14,
+    "slug": "assetto-corsa-competizione",
+    "title": "Assetto Corsa Competizione",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/19e/19ea8efb10fcbcf1b9c60729d510ed14.jpg",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 15,
+    "slug": "astro-bot",
+    "title": "Astro Bot",
+    "price": 89,
+    "image": "https://media.rawg.io/media/games/b19/b19cdd6be95ffffd63fdd2d1fbac057a.jpg",
+    "genres": ["Platformer", "Action"],
+    "oldPrice": 114
+  },
+  {
+    "id": 16,
+    "slug": "astro-bot-rescue-mission",
+    "title": "Astro Bot: Rescue Mission",
+    "price": 35,
+    "image": "https://media.rawg.io/media/games/234/234bdec585c2eb952792bf7bde47d4d2.jpg",
+    "genres": ["Adventure"],
+    "oldPrice": 60
+  },
+  {
+    "id": 17,
+    "slug": "avatar-frontiers-of-pandora",
+    "title": "Avatar: Frontiers of Pandora",
+    "price": 39,
+    "image": "https://media.rawg.io/media/games/983/9837c2e9a13a92c55c47327dfc22a81f.jpeg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 64
+  },
+  {
+    "id": 18,
+    "slug": "batman-arkham-collection",
+    "title": "Batman: Arkham Collection",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-CUSA00133_00-ARKHAMBUNDLE0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 19,
+    "slug": "battlefield-1",
+    "title": "Battlefield 1",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/998/9980c4296f311d8bcc5b451ca51e4fe1.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 20,
+    "slug": "beach-buggy-racing",
+    "title": "Beach Buggy Racing",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0789-CUSA02291_00-BEACHBUGGYPS4000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Casual", "Racing", "Arcade"],
+    "oldPrice": 40
+  },
+  {
+    "id": 21,
+    "slug": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "price": 69,
+    "image": "https://media.rawg.io/media/games/779/77988e89f7862afeede524420aa251b0.jpg",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 94
+  },
+  {
+    "id": 22,
+    "slug": "bloodborne",
+    "title": "Bloodborne",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP9000-CUSA00900_00-BLOODBORNE000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 23,
+    "slug": "borderlands-3",
+    "title": "Borderlands 3",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"],
+    "oldPrice": 44
+  },
+  {
+    "id": 24,
+    "slug": "brothers-a-tale-of-two-sons-remake",
+    "title": "Brothers: A Tale of Two Sons Remake",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4040-PPSA14501_00-BROTHERSFORPS5US/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Casual", "Adventure"],
+    "oldPrice": 60
+  },
+  {
+    "id": 25,
+    "slug": "bus-simulator-21",
+    "title": "Bus Simulator 21",
+    "price": 29,
+    "image": "https://media.rawg.io/media/screenshots/a94/a946e0ac8fc84c43e5d12718561976cd.jpg",
+    "genres": ["Simulation"],
+    "oldPrice": 54
+  },
+  {
+    "id": 26,
+    "slug": "call-of-duty-black-ops-iii-zombies-chronicles",
+    "title": "Call of Duty: Black Ops III – Zombies Chronicles",
+    "price": 32,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-CUSA02290_00-CODBO3ZOMBIESHD1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 57
+  },
+  {
+    "id": 27,
+    "slug": "call-of-duty-black-ops-6-digital-deluxe-edition",
+    "title": "Call of Duty: Black Ops 6 – Digital Deluxe Edition",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/e89/e89f9a409bce5d36873f65ea9659c36e.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 28,
+    "slug": "call-of-duty-black-ops-6-cross-gen-bundle",
+    "title": "Call of Duty: Black Ops 6 – Cross-Gen Bundle",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-PPSA01649_00-CODBO6CROSSGEN01/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 29,
+    "slug": "call-of-duty-black-ops-cold-war",
+    "title": "Call of Duty: Black Ops Cold War",
+    "price": 45,
+    "image": "https://media.rawg.io/media/games/6b1/6b14dc4cc1785e396580c69165e55d2d.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 30,
+    "slug": "call-of-duty-modern-warfare-ii",
+    "title": "Call of Duty: Modern Warfare II",
+    "price": 40,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-PPSA23012_00-CODDMZBUNDLE0001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter"],
+    "oldPrice": 65
+  },
+  {
+    "id": 31,
+    "slug": "call-of-duty-modern-warfare-iii",
+    "title": "Call of Duty: Modern Warfare III",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-PPSA01649_00-CODMW3CROSSGEN01/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 32,
+    "slug": "call-of-duty-modern-warfare-2",
+    "title": "Call of Duty: Modern Warfare 2",
+    "price": 18,
+    "image": "https://media.rawg.io/media/games/9af/9af24c1886e2c7b52a4a2c65aa874638.jpg",
+    "genres": ["Shooter"],
+    "oldPrice": 43
+  },
+  {
+    "id": 33,
+    "slug": "call-of-duty-vanguard",
+    "title": "Call of Duty: Vanguard",
+    "price": 18,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-CUSA24041_00-CODVSTANDARD0001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter"],
+    "oldPrice": 43
+  },
+  {
+    "id": 34,
+    "slug": "call-of-duty-wwii",
+    "title": "Call of Duty: WWII",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/1e5/1e5e33b88be978f451196a751424a72e.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 35,
+    "slug": "the-callisto-protocol",
+    "title": "The Callisto Protocol",
+    "price": 42,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP5082-CUSA27372_00-4596305568280539/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 67
+  },
+  {
+    "id": 36,
+    "slug": "carx-drift-racing-online",
+    "title": "CarX Drift Racing Online",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4737-CUSA18938_00-0000000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Massively Multiplayer", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 37,
+    "slug": "chivalry-2-special-edition",
+    "title": "Chivalry 2 – Special Edition",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0115-PPSA02183_00-6816058003800571/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 38,
+    "slug": "creed-rise-to-glory-championship-edition",
+    "title": "Creed: Rise to Glory – Championship Edition",
+    "price": 39,
+    "image": "https://media.rawg.io/media/games/0d1/0d14552f01148041afe62f74dbdfb830.jpg",
+    "genres": ["Action", "Simulation", "Sports"],
+    "oldPrice": 64
+  },
+  {
+    "id": 39,
+    "slug": "the-crew-motorfest",
+    "title": "The Crew Motorfest",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/01c/01c5ea9e52ba297b28f11938e5005758.jpg",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 47
+  },
+  {
+    "id": 40,
+    "slug": "the-crew-2",
+    "title": "The Crew 2",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/b49/b49e403e116e9734e95b4c88e5b2ae74.jpg",
+    "genres": ["Racing", "Massively Multiplayer", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 41,
+    "slug": "cult-of-the-lamb",
+    "title": "Cult of the Lamb",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP3643-PPSA06464_00-6576653892496327/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Strategy", "Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 42,
+    "slug": "cuphead",
+    "title": "Cuphead",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/226/2262cea0b385db6cf399f4be831603b0.jpg",
+    "genres": ["Platformer", "Indie", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 43,
+    "slug": "cyberpunk-2077-phantom-liberty",
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "price": 44,
+    "image": "https://media.rawg.io/media/games/062/06285b425e61623530c5430f20e5d222.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 69
+  },
+  {
+    "id": 44,
+    "slug": "the-dark-pictures-house-of-ashes",
+    "title": "The Dark Pictures: House of Ashes",
+    "price": 20,
+    "image": "https://media.rawg.io/media/games/326/326cbbdc3bc2da0b10cc3f7edd57161a.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 45
+  },
+  {
+    "id": 45,
+    "slug": "the-dark-pictures-the-devil-in-me",
+    "title": "The Dark Pictures: The Devil in Me",
+    "price": 20,
+    "image": "https://media.rawg.io/media/games/ab0/ab0381be59467a6c54a858c6ab65a5a5.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 45
+  },
+  {
+    "id": 46,
+    "slug": "days-gone-remastered",
+    "title": "Days Gone Remastered",
+    "price": 65,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP9000-PPSA28180_00-DAYSGONEREMASTER/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Family", "Adventure"],
+    "oldPrice": 90
+  },
+  {
+    "id": 47,
+    "slug": "dayz",
+    "title": "DayZ",
+    "price": 32,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP2739-CUSA15510_00-DAYZ000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Massively Multiplayer", "Action"],
+    "oldPrice": 57
+  },
+  {
+    "id": 48,
+    "slug": "dead-island-2",
+    "title": "Dead Island 2",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/9cd/9cd22ae5aebd922f96f2bc50efab83df.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 49,
+    "slug": "demon-slayer-kimetsu-no-yaiba",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "price": 32,
+    "image": "https://media.rawg.io/media/games/e69/e69fae35b4e3afe8f6357c01fa6a0e6c.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 57
+  },
+  {
+    "id": 50,
+    "slug": "dragon-ball-sparking-zero",
+    "title": "Dragon Ball: Sparking! ZERO",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0700-PPSA15211_00-DRAGONBALLSPARK0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "Fighting"],
+    "oldPrice": 70
+  },
+  {
+    "id": 51,
+    "slug": "detroit-become-human-digital-deluxe-edition",
+    "title": "Detroit: Become Human – Digital Deluxe Edition",
+    "price": 29,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP9000-CUSA08344_00-DETROITDDE000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 54
+  },
+  {
+    "id": 52,
+    "slug": "devil-may-cry-5-deluxe-edition",
+    "title": "Devil May Cry 5 – Deluxe Edition",
+    "price": 32,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0102-CUSA08216_00-DMC5PVERBUNDLE02/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 57
+  },
+  {
+    "id": 53,
+    "slug": "diablo-iv",
+    "title": "Diablo IV",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-PPSA02442_00-DIVBASEGAME00000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 50
+  },
+  {
+    "id": 54,
+    "slug": "dirt-rally-2-0",
+    "title": "DiRT Rally 2.0",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/8f3/8f306808c45a4dbe0cd698e0b142af08.jpg",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 55,
+    "slug": "disco-elysium-the-final-cut",
+    "title": "Disco Elysium: The Final Cut",
+    "price": 22,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP6758-PPSA03268_00-6401393671841114/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "RPG"],
+    "oldPrice": 47
+  },
+  {
+    "id": 56,
+    "slug": "doom-eternal",
+    "title": "DOOM Eternal",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/3ea/3ea3c9bbd940b6cb7f2139e42d3d443f.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 57,
+    "slug": "doom-eternal-deluxe-edition",
+    "title": "DOOM Eternal – Deluxe Edition",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1003-CUSA13338_00-DOOMETERNALDELUX/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Puzzle"],
+    "oldPrice": 60
+  },
+  {
+    "id": 58,
+    "slug": "doom-the-dark-ages-premium-edition",
+    "title": "DOOM: The Dark Ages – Premium Edition",
+    "price": 60,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1003-PPSA20560_00-DOOMTDAPREMIUMED/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 85
+  },
+  {
+    "id": 59,
+    "slug": "dragon-ball-z-kakarot",
+    "title": "Dragon Ball Z: Kakarot",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/cf0/cf062fb221995e3e04294ba5f9dabbb9.jpg",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 47
+  },
+  {
+    "id": 60,
+    "slug": "dying-light",
+    "title": "Dying Light",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/c11/c11a0b92b4c28f2e0db489f430142653.jpg",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 44
+  },
+  {
+    "id": 61,
+    "slug": "dying-light-2-stay-human",
+    "title": "Dying Light 2 Stay Human",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP3050-PPSA02261_00-DL2GAME0000000US/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 62,
+    "slug": "ea-sports-fc-26",
+    "title": "EA Sports FC 26",
+    "price": 48,
+    "image": "https://media.rawg.io/media/screenshots/70f/70fb740261ef152d0d3392a9a306c9ca.jpg",
+    "genres": ["Simulation", "Sports"],
+    "oldPrice": 73
+  },
+  {
+    "id": 63,
+    "slug": "fifa-23",
+    "title": "FIFA 23",
+    "price": 22,
+    "image": "https://media.rawg.io/media/screenshots/52a/52ad785b9d1514f100ec89c6d5f22e8c.jpg",
+    "genres": ["Casual"],
+    "oldPrice": 47
+  },
+  {
+    "id": 64,
+    "slug": "ea-sports-wrc-24",
+    "title": "EA Sports WRC 24",
+    "price": 25,
+    "image": "https://media.rawg.io/media/screenshots/da4/da43fab6cbe363445f1c6a11b3c5dc42.jpg",
+    "genres": ["Racing", "Simulation"],
+    "oldPrice": 50
+  },
+  {
+    "id": 65,
+    "slug": "star-wars-triple-bundle",
+    "title": "Star Wars Triple Bundle",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0006-CUSA15080_00-STARWARSTRIPBUND/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 66,
+    "slug": "elden-ring-nightreign",
+    "title": "Elden Ring Nightreign",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0700-PPSA25380_00-ERSL000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 67,
+    "slug": "the-elder-scrolls-v-skyrim-vr",
+    "title": "The Elder Scrolls V: Skyrim VR",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1003-CUSA09124_00-SKYRIMVR00000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["RPG"],
+    "oldPrice": 50
+  },
+  {
+    "id": 68,
+    "slug": "empire-of-the-ants",
+    "title": "Empire of the Ants",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/EP4295-PPSA14455_00-EOAPS500000000EU/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Strategy"],
+    "oldPrice": 44
+  },
+  {
+    "id": 69,
+    "slug": "expeditions-a-mudrunner-game",
+    "title": "Expeditions: A MudRunner Game",
+    "price": 55,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4133-PPSA17423_00-SNOWRUNNEREXPEDI/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=672&h=672",
+    "genres": ["Racing", "Adventure"],
+    "oldPrice": 80
+  },
+  {
+    "id": 70,
+    "slug": "f1-25",
+    "title": "F1 25",
+    "price": 69,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/TR/tr/99/UP0006-PPSA24662_00-F12025PS5GAME000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 94
+  },
+  {
+    "id": 71,
+    "slug": "far-cry-classic-edition",
+    "title": "Far Cry Classic Edition",
+    "price": 20,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA10326_00-FARCRY3REMASTER0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 45
+  },
+  {
+    "id": 72,
+    "slug": "far-cry-5",
+    "title": "Far Cry 5",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/bce/bce62fbc7cf74bf6a1a37340993ec148.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 73,
+    "slug": "far-cry-6",
+    "title": "Far Cry 6",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 74,
+    "slug": "ea-sports-fc-24",
+    "title": "EA Sports FC 24",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/104/10404407d458d90f4559a1f587c2650a.jpg",
+    "genres": ["Casual", "Simulation", "Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 75,
+    "slug": "ea-sports-fc-25",
+    "title": "EA Sports FC 25",
+    "price": 30,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0006-PPSA20049_00-25STANDARDBUNDLE/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Simulation", "Sports"],
+    "oldPrice": 55
+  },
+  {
+    "id": 76,
+    "slug": "the-first-berserker-khazan",
+    "title": "The First Berserker: Khazan",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP8236-PPSA20447_00-0545059108752800/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 77,
+    "slug": "the-forest",
+    "title": "The Forest",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0238-CUSA12398_00-THEFOREST0000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Adventure", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 78,
+    "slug": "forza-horizon-5",
+    "title": "Forza Horizon 5",
+    "price": 55,
+    "image": "https://media.rawg.io/media/games/082/082365507ff04d456c700157072d35db.jpg",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 80
+  },
+  {
+    "id": 79,
+    "slug": "garten-of-banban",
+    "title": "Garten of Banban",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP3385-CUSA48299_00-0530956826015311/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Casual", "Indie", "Adventure", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 80,
+    "slug": "ghost-of-a-tale",
+    "title": "Ghost of a Tale",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1302-CUSA14370_00-GHOSTOFATALE0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Adventure", "Action", "RPG"],
+    "oldPrice": 44
+  },
+  {
+    "id": 81,
+    "slug": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "price": 65,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA05031_00-GHOSTDCPS5PSPLUS/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 90
+  },
+  {
+    "id": 82,
+    "slug": "tom-clancys-ghost-recon-breakpoint",
+    "title": "Tom Clancy’s Ghost Recon Breakpoint",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA16001_00-GRW2SCEEUKRUS000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 83,
+    "slug": "ghost-signal-a-stellaris-game",
+    "title": "Ghost Signal: A Stellaris Game",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP2907-PPSA17013_00-0102262407541340/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 84,
+    "slug": "goat-simulator",
+    "title": "Goat Simulator",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg",
+    "genres": ["Casual", "Indie", "Action", "Simulation"],
+    "oldPrice": 40
+  },
+  {
+    "id": 85,
+    "slug": "god-of-war",
+    "title": "God of War",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-CUSA07412_00-0000000GODOFWARN/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 86,
+    "slug": "god-of-war-remastered",
+    "title": "God of War Remastered",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-CUSA01715_00-0000GODOFWAR3PS4/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 87,
+    "slug": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA08332_00-GOWRAGNAROK00000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 70
+  },
+  {
+    "id": 88,
+    "slug": "gran-turismo-7",
+    "title": "Gran Turismo 7",
+    "price": 40,
+    "image": "https://media.rawg.io/media/games/3f6/3f6a04b856f23310d3c2f5be8c5963f7.jpg",
+    "genres": ["Racing"],
+    "oldPrice": 65
+  },
+  {
+    "id": 89,
+    "slug": "grand-theft-auto-online",
+    "title": "Grand Theft Auto Online",
+    "price": 29,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1004-PPSA01721_00-GTAOSTANDALONE01/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 54
+  },
+  {
+    "id": 90,
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "price": 42,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1004-NPEB01283_00-GTAVDIGITALDOWNL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 67
+  },
+  {
+    "id": 91,
+    "slug": "grid-legends",
+    "title": "GRID Legends",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/8cb/8cbf9a1735ae48b70b9aba5f82ab56da.jpg",
+    "genres": ["Racing", "Action", "Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 92,
+    "slug": "grand-theft-auto-the-trilogy-the-definitive-edition",
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/051/0518bc19ba710a13d58620723ef8b3f7.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 93,
+    "slug": "helldivers-2",
+    "title": "Helldivers 2",
+    "price": 45,
+    "image": "https://media.rawg.io/media/screenshots/755/7552f856f88b0de1dee040121039b079.jpg",
+    "genres": ["Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 94,
+    "slug": "hitman-world-of-assassination",
+    "title": "Hitman: World of Assassination",
+    "price": 29,
+    "image": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg",
+    "genres": ["Shooter", "Action", "Simulation"],
+    "oldPrice": 54
+  },
+  {
+    "id": 95,
+    "slug": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1018-CUSA12771_00-HOGWARTSLEGACY01/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 96,
+    "slug": "horizon-forbidden-west",
+    "title": "Horizon Forbidden West",
+    "price": 35,
+    "image": "https://media.rawg.io/media/games/bf7/bf73b105ccbba42107986bbcd96fcada.jpg",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 97,
+    "slug": "hot-wheels-unleashed",
+    "title": "Hot Wheels Unleashed",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/201/201feb4db3118c1440ebdce03e61e3fb.jpg",
+    "genres": ["Racing"],
+    "oldPrice": 44
+  },
+  {
+    "id": 98,
+    "slug": "human-fall-flat",
+    "title": "Human: Fall Flat",
+    "price": 20,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4395-CUSA07208_00-HFFGAMEANDTHEME0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Action", "Puzzle"],
+    "oldPrice": 45
+  },
+  {
+    "id": 99,
+    "slug": "hunting-simulator-2",
+    "title": "Hunting Simulator 2",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4008-PPSA01899_00-HS20SIEE00000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action", "Simulation", "Sports"],
+    "oldPrice": 40
+  },
+  {
+    "id": 100,
+    "slug": "infamous-second-son",
+    "title": "inFAMOUS: Second Son",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-CUSA00004_00-SECONDSONSHIP000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 101,
+    "slug": "it-takes-two",
+    "title": "It Takes Two",
+    "price": 39,
+    "image": "https://media.rawg.io/media/games/d47/d479582ed0a46496ad34f65c7099d7e5.jpg",
+    "genres": ["Platformer", "Adventure", "Action"],
+    "oldPrice": 64
+  },
+  {
+    "id": 102,
+    "slug": "just-cause-3-xxl-edition",
+    "title": "Just Cause 3 XXL Edition",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0082-CUSA02748_00-JC3XXL00000000EX/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Massively Multiplayer", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 103,
+    "slug": "just-cause-4-gold-edition",
+    "title": "Just Cause 4 Gold Edition",
+    "price": 18,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0082-CUSA09264_00-JC4GOLDNEWWW0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 43
+  },
+  {
+    "id": 104,
+    "slug": "just-dance-2023-edition",
+    "title": "Just Dance 2023 Edition",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/605/605940cb2be92c8c483fd514165ea81e.jpg",
+    "genres": ["Casual", "Family", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 105,
+    "slug": "the-last-of-us-part-ii-remastered",
+    "title": "The Last of Us Part II Remastered",
+    "price": 75,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA15508_00-THELASTOFUSPART2/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 100
+  },
+  {
+    "id": 106,
+    "slug": "lies-of-p",
+    "title": "Lies of P",
+    "price": 39,
+    "image": "https://media.rawg.io/media/games/458/45838becd01e929b6be8b88d655cebfc.jpg",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 64
+  },
+  {
+    "id": 107,
+    "slug": "life-is-strange",
+    "title": "Life is Strange",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
+    "genres": ["Adventure"],
+    "oldPrice": 40
+  },
+  {
+    "id": 108,
+    "slug": "little-nightmares-enhanced-edition",
+    "title": "Little Nightmares – Enhanced Edition",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0700-PPSA10737_00-LITTLENIGHTMARES/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 40
+  },
+  {
+    "id": 109,
+    "slug": "little-nightmares-ii",
+    "title": "Little Nightmares II",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/c2a/c2a7dc4540eb79aaff7099ae691105d3.jpg",
+    "genres": ["Platformer", "Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 110,
+    "slug": "little-nightmares-iii",
+    "title": "Little Nightmares III",
+    "price": 42,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0700-PPSA05143_00-LITTLENIGHTS3000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Arcade", "Adventure"],
+    "oldPrice": 67
+  },
+  {
+    "id": 111,
+    "slug": "the-lord-of-the-rings-gollum",
+    "title": "The Lord of the Rings: Gollum",
+    "price": 18,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP6665-PPSA06366_00-LRG0000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 43
+  },
+  {
+    "id": 112,
+    "slug": "lost-soul-aside",
+    "title": "Lost Soul Aside",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/HP9000-PPSA26358_00-LOSTSOULASIDE000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Adventure", "Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 113,
+    "slug": "mad-max",
+    "title": "Mad Max",
+    "price": 24,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1018-CUSA00054_00-MADMAXTHEGAME001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 49
+  },
+  {
+    "id": 114,
+    "slug": "madison-vr",
+    "title": "MADiSON VR",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP3446-PPSA16915_00-0776324805432701/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Adventure", "Action", "Simulation"],
+    "oldPrice": 60
+  },
+  {
+    "id": 115,
+    "slug": "mafia-definitive-edition",
+    "title": "Mafia: Definitive Edition",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/345/3452d9d4483686c602372e0e6b3bb4cc.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 116,
+    "slug": "mafia-ii-definitive-edition",
+    "title": "Mafia II: Definitive Edition",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/d73/d7364906c530ccc2d89b0b5d8695e03c.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 117,
+    "slug": "marvels-spider-man-2",
+    "title": "Marvel’s Spider-Man 2",
+    "price": 75,
+    "image": "https://media.rawg.io/media/games/7ae/7ae5a14cdb4ab222a134c15f4629e430.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 100
+  },
+  {
+    "id": 118,
+    "slug": "marvels-spider-man-game-of-the-year-edition",
+    "title": "Marvel’s Spider-Man – Game of the Year Edition",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-CUSA11995_00-000000000MSMGOTY/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 119,
+    "slug": "marvels-spider-man-miles-morales",
+    "title": "Marvel’s Spider-Man: Miles Morales",
+    "price": 39,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA01461_00-MARVELSSMMORALES/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 64
+  },
+  {
+    "id": 120,
+    "slug": "mass-effect-legendary-edition",
+    "title": "Mass Effect Legendary Edition",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA19515_00-METR000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"],
+    "oldPrice": 44
+  },
+  {
+    "id": 121,
+    "slug": "medieval-dynasty",
+    "title": "Medieval Dynasty",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP3550-CUSA34020_00-MEDIEVALDYNPS4EU/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG", "Simulation"],
+    "oldPrice": 50
+  },
+  {
+    "id": 122,
+    "slug": "metal-gear-solid-v",
+    "title": "Metal Gear Solid V",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0101-CUSA05597_00-MAINGAME00000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 123,
+    "slug": "metal-gear-solid-master-collection-vol-1",
+    "title": "Metal Gear Solid: Master Collection Vol. 1",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0101-PPSA14364_00-MGSCOLLECTION001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 124,
+    "slug": "metal-gear-solid-snake-eater-digital-deluxe-edition",
+    "title": "Metal Gear Solid Δ: Snake Eater – Digital Deluxe Edition",
+    "price": 55,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/JP0101-PPSA15304_00-SNAKEEATERDELUXE/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 80
+  },
+  {
+    "id": 125,
+    "slug": "metro-exodus",
+    "title": "Metro Exodus",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4062-PPSA01749_00-METROEXODUS0GEN9/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 126,
+    "slug": "minecraft",
+    "title": "Minecraft",
+    "price": 45,
+    "image": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg",
+    "genres": [
+      "Action",
+      "Arcade",
+      "Simulation",
+      "Indie",
+      "Massively Multiplayer"
+    ],
+    "oldPrice": 70
+  },
+  {
+    "id": 127,
+    "slug": "mortal-kombat-1",
+    "title": "Mortal Kombat 1",
+    "price": 15,
+    "image": "https://media.rawg.io/media/games/155/155087d7b9c1225cda0ab9e586b6374d.jpg",
+    "genres": ["Action", "Fighting"],
+    "oldPrice": 40
+  },
+  {
+    "id": 128,
+    "slug": "mortal-kombat-xl",
+    "title": "Mortal Kombat XL",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1018-CUSA03679_00-MORTALKOMBATXL00/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Fighting"],
+    "oldPrice": 44
+  },
+  {
+    "id": 129,
+    "slug": "motogp-25",
+    "title": "MotoGP 25",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4356-CUSA53165_00-MOTOGP25FULLGAME/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 130,
+    "slug": "mount-blade-ii-bannerlord",
+    "title": "Mount & Blade II: Bannerlord",
+    "price": 55,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1457-CUSA15467_00-MB2BANNERLORD000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Action", "RPG"],
+    "oldPrice": 80
+  },
+  {
+    "id": 131,
+    "slug": "mudrunner",
+    "title": "MudRunner",
+    "price": 19,
+    "image": "https://media.rawg.io/media/screenshots/e3e/e3e30c02d9ee69e618e667fd52e06b8d.jpeg",
+    "genres": ["Simulation"],
+    "oldPrice": 44
+  },
+  {
+    "id": 132,
+    "slug": "mxgp-2021",
+    "title": "MXGP 2021",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4356-CUSA28534_00-MXGP2021FULLGAME/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 40
+  },
+  {
+    "id": 133,
+    "slug": "naruto-shippuden-ultimate-ninja-storm-4",
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+    "price": 22,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0700-CUSA02854_00-NARUTOUNS4000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "Fighting"],
+    "oldPrice": 47
+  },
+  {
+    "id": 134,
+    "slug": "nba-2k23",
+    "title": "NBA 2K23",
+    "price": 15,
+    "image": "/game-photos/nba2k23.jpg",
+    "genres": ["Sports"],
+    "oldPrice": 40
+  },
+  {
+    "id": 135,
+    "slug": "nba-2k24",
+    "title": "NBA 2K24",
+    "price": 19,
+    "image": "https://media.rawg.io/media/screenshots/737/7370fe02c248bc0295f187632619af32.jpg",
+    "genres": ["Simulation", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 136,
+    "slug": "nba-2k25",
+    "title": "NBA 2K25",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1001-PPSA22121_00-NBA2K25STANDARD0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Simulation", "Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 137,
+    "slug": "nba-2k26-slam-edition",
+    "title": "NBA 2K26 Slam Edition",
+    "price": 55,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP1001-PPSA28420_00-NBA2K26DELUXE000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "Simulation", "Sports"],
+    "oldPrice": 80
+  },
+  {
+    "id": 138,
+    "slug": "need-for-speed-playstation-hits",
+    "title": "Need for Speed (PlayStation Hits)",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/19a/19a512a8c1293c22894b7364e1405ec1.jpg",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 44
+  },
+  {
+    "id": 139,
+    "slug": "nfs-heat",
+    "title": "NFS Heat",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA15090_00-NEEDFORSPEED2020/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 50
+  },
+  {
+    "id": 140,
+    "slug": "need-for-speed-hot-pursuit-remastered",
+    "title": "Need for Speed Hot Pursuit Remastered",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA23265_00-NEEDFORSPEEDHPR0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Action", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 141,
+    "slug": "need-for-speed-payback",
+    "title": "Need for Speed Payback",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/a57/a57e3c73ca46cbf55b526c828e3545c0.jpg",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 44
+  },
+  {
+    "id": 142,
+    "slug": "need-for-speed-unbound",
+    "title": "Need for Speed Unbound",
+    "price": 35,
+    "image": "https://media.rawg.io/media/games/d7b/d7b45d416ca18bf86f9f1638ee331efa.jpg",
+    "genres": ["Racing", "Arcade"],
+    "oldPrice": 60
+  },
+  {
+    "id": 143,
+    "slug": "never-alone-arctic-collection",
+    "title": "Never Alone Arctic Collection",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4531-CUSA01394_00-FTDLCBUNDLE00001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Platformer", "Adventure", "Puzzle"],
+    "oldPrice": 50
+  },
+  {
+    "id": 144,
+    "slug": "nhl-24",
+    "title": "NHL 24",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-PPSA11194_00-NHLPS5HOCKEY2024/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Sports"],
+    "oldPrice": 50
+  },
+  {
+    "id": 145,
+    "slug": "nhl-25",
+    "title": "NHL 25",
+    "price": 39,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP0006-PPSA18744_00-NHLPS5HOCKEY2025/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Sports"],
+    "oldPrice": 64
+  },
+  {
+    "id": 146,
+    "slug": "ninja-gaiden-master-collection",
+    "title": "Ninja Gaiden: Master Collection",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4108-CUSA24124_00-NINJAGAIDENMC000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 147,
+    "slug": "payday-3",
+    "title": "Payday 3",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP8459-PPSA14411_00-PAYDAY3FULLGAME1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action", "RPG"],
+    "oldPrice": 60
+  },
+  {
+    "id": 148,
+    "slug": "police-simulator-patrol-officers",
+    "title": "Police Simulator: Patrol Officers",
+    "price": 30,
+    "image": "https://media.rawg.io/media/games/b92/b92d5db85b7b787eafcfe4627dc991d5.jpg",
+    "genres": ["Simulation"],
+    "oldPrice": 55
+  },
+  {
+    "id": 149,
+    "slug": "poppy-playtime-chapter-2",
+    "title": "Poppy Playtime Chapter 2",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP8103-CUSA47693_00-0734550977773698/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 150,
+    "slug": "poppy-playtime-chapter-3",
+    "title": "Poppy Playtime Chapter 3",
+    "price": 20,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP8103-CUSA48310_00-0080292218106196/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": [],
+    "oldPrice": 45
+  },
+  {
+    "id": 151,
+    "slug": "poppy-playtime-chapter-4",
+    "title": "Poppy Playtime Chapter 4",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP8103-CUSA50360_00-POPPYCHAPTERFOUR/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Puzzle"],
+    "oldPrice": 50
+  },
+  {
+    "id": 152,
+    "slug": "poppy-playtime-chapter-5",
+    "title": "Poppy Playtime Chapter 5",
+    "price": 30,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP8103-PPSA36543_00-POPPYCHAPTERFIVE/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Puzzle"],
+    "oldPrice": 55
+  },
+  {
+    "id": 153,
+    "slug": "predator-hunting-grounds",
+    "title": "Predator: Hunting Grounds",
+    "price": 22,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP3095-PPSA24179_00-PREDATORHUNTGAME/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 154,
+    "slug": "prince-of-persia-the-lost-crown",
+    "title": "Prince of Persia: The Lost Crown",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/cca/ccaa933775fe1ffcebe40a01f52545db.jpg",
+    "genres": ["Platformer", "Adventure", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 155,
+    "slug": "the-quarry",
+    "title": "The Quarry",
+    "price": 20,
+    "image": "https://media.rawg.io/media/games/f40/f407a80be4c604d013e4b9d1e0c6dbef.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 45
+  },
+  {
+    "id": 156,
+    "slug": "ratchet-clank-rift-apart",
+    "title": "Ratchet & Clank: Rift Apart",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA01474_00-RATCHETCLANKRIFT/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Platformer", "Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 157,
+    "slug": "ready-or-not",
+    "title": "Ready or Not",
+    "price": 29,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP6322-PPSA18605_00-0342498734252743/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Shooter", "Adventure", "Action"],
+    "oldPrice": 54
+  },
+  {
+    "id": 158,
+    "slug": "reanimal",
+    "title": "Reanimal",
+    "price": 65,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4389-PPSA23372_00-ANIMALGAMEGLOBAL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure"],
+    "oldPrice": 90
+  },
+  {
+    "id": 159,
+    "slug": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "price": 42,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1004-CUSA08519_00-REDEMPTIONFULL02/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 67
+  },
+  {
+    "id": 160,
+    "slug": "resident-evil-4",
+    "title": "Resident Evil 4",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0102-PPSA07412_00-RE4RMAINGAME0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 161,
+    "slug": "resident-evil-7-biohazard-gold-edition",
+    "title": "Resident Evil 7 Biohazard Gold Edition",
+    "price": 39,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0102-PPSA04405_00-BH7G000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 64
+  },
+  {
+    "id": 162,
+    "slug": "resident-evil-village",
+    "title": "Resident Evil Village",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0102-PPSA01557_00-VILLAGEFULLGAMEX/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 70
+  },
+  {
+    "id": 163,
+    "slug": "resident-evil-village-gold-edition-style",
+    "title": "Resident Evil Village (Gold Edition style)",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0102-PPSA01557_00-VILLAGEGDEDITION/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 165,
+    "slug": "returnal",
+    "title": "Returnal",
+    "price": 22,
+    "image": "https://media.rawg.io/media/games/673/673f27be4c5dbf37ce3ed0ed5ddf9d8d.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 166,
+    "slug": "revenge-of-the-savage-planet",
+    "title": "Revenge of the Savage Planet",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UP7458-PPSA20154_00-REVESAVAGEPLANET/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 167,
+    "slug": "ride-5",
+    "title": "Ride 5",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4356-PPSA04314_00-RIDE5FULLGAME000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Simulation", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 168,
+    "slug": "riders-republic",
+    "title": "Riders Republic",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA01372_00-MADSTANDARTED000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Massively Multiplayer", "Action", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 169,
+    "slug": "rise-of-the-ronin",
+    "title": "Rise of the Ronin",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA04540_00-RONINFULLGAME001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 70
+  },
+  {
+    "id": 170,
+    "slug": "robocop-rogue-city-alex-murphy-deluxe-edition",
+    "title": "RoboCop: Rogue City (Alex Murphy Deluxe Edition)",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP6665-PPSA05059_00-0026005929348670/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 171,
+    "slug": "rugby-25",
+    "title": "Rugby 25",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP6665-PPSA16349_00-R250000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Sports"],
+    "oldPrice": 60
+  },
+  {
+    "id": 172,
+    "slug": "saints-row-the-third-remastered",
+    "title": "Saints Row: The Third Remastered",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4062-PPSA02874_00-SRTTRPS5SIEE0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 173,
+    "slug": "saros",
+    "title": "Saros",
+    "price": 55,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA07631_00-SAROS00000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 80
+  },
+  {
+    "id": 174,
+    "slug": "sea-of-thieves-deluxe-edition",
+    "title": "Sea of Thieves (Deluxe Edition)",
+    "price": 29,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP6311-PPSA17668_00-DELUXEPACK202600/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Puzzle"],
+    "oldPrice": 54
+  },
+  {
+    "id": 175,
+    "slug": "sekiro-shadows-die-twice",
+    "title": "Sekiro: Shadows Die Twice",
+    "price": 39,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA13801_00-SEKIROGAME000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 64
+  },
+  {
+    "id": 176,
+    "slug": "sifu",
+    "title": "Sifu",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP2566-PPSA03001_00-4693207696815642/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "Fighting"],
+    "oldPrice": 44
+  },
+  {
+    "id": 177,
+    "slug": "skull-and-bones",
+    "title": "Skull and Bones",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA07648_00-GAME000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Massively Multiplayer", "Adventure", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 178,
+    "slug": "sniper-elite-5",
+    "title": "Sniper Elite 5",
+    "price": 35,
+    "image": "https://media.rawg.io/media/games/3e0/3e09bb71ce82dad515df4982a2466e67.jpg",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 179,
+    "slug": "sniper-elite-5-unlimited-edition",
+    "title": "Sniper Elite 5 Unlimited Edition",
+    "price": 22,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4529-PPSA04444_00-SNIPERELITE500CE/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 180,
+    "slug": "snowrunner",
+    "title": "SnowRunner",
+    "price": 55,
+    "image": "https://media.rawg.io/media/games/d22/d22ea1bfb636fbf1a9c235cc304312a8.jpg",
+    "genres": ["Racing"],
+    "oldPrice": 80
+  },
+  {
+    "id": 181,
+    "slug": "sonic-frontiers-digital-deluxe-edition",
+    "title": "Sonic Frontiers (Digital Deluxe Edition)",
+    "price": 25,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0177-PPSA03832_00-SONICRANGERSDX00/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": [],
+    "oldPrice": 50
+  },
+  {
+    "id": 182,
+    "slug": "sonic-superstars",
+    "title": "Sonic Superstars",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0177-PPSA06889_00-SONICORION000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Platformer", "Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 183,
+    "slug": "star-wars-jedi-survivor-deluxe-edition",
+    "title": "Star Wars Jedi: Survivor (Deluxe Edition)",
+    "price": 42,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-PPSA07784_00-APPLEJACKGAME000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 67
+  },
+  {
+    "id": 184,
+    "slug": "stray",
+    "title": "Stray",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg",
+    "genres": ["Adventure", "Action", "Puzzle", "Indie", "Platformer"],
+    "oldPrice": 44
+  },
+  {
+    "id": 185,
+    "slug": "suicide-squad-kill-the-justice-league",
+    "title": "Suicide Squad: Kill the Justice League",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/eac/eac17db790a988f47e5700d176497694.jpg",
+    "genres": ["Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 186,
+    "slug": "tekken-7",
+    "title": "Tekken 7",
+    "price": 32,
+    "image": "https://media.rawg.io/media/games/62b/62b035add7205737540d66e082b85930.jpg",
+    "genres": ["Action", "Fighting", "Sports"],
+    "oldPrice": 57
+  },
+  {
+    "id": 187,
+    "slug": "tekken-8",
+    "title": "Tekken 8",
+    "price": 49,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0700-PPSA10594_00-TEKKEN8000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action", "Fighting"],
+    "oldPrice": 74
+  },
+  {
+    "id": 188,
+    "slug": "thehunter-call-of-the-wild",
+    "title": "theHunter: Call of the Wild",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP3359-CUSA08369_00-THCOTWBASE000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Simulation", "Sports"],
+    "oldPrice": 44
+  },
+  {
+    "id": 189,
+    "slug": "titanfall-2-ultimate-edition",
+    "title": "Titanfall 2 Ultimate Edition",
+    "price": 22,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA04013_00-ULTIMA0000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 47
+  },
+  {
+    "id": 190,
+    "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
+    "title": "Teenage Mutant Ninja Turtles: Shredder’s Revenge",
+    "price": 19,
+    "image": "https://media.rawg.io/media/games/aac/aac683272f862540a18625f02f5f3679.jpg",
+    "genres": ["Adventure", "Action", "Fighting", "Casual", "Arcade", "Indie"],
+    "oldPrice": 44
+  },
+  {
+    "id": 191,
+    "slug": "topspin-2k25",
+    "title": "TopSpin 2K25",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1001-PPSA06899_00-TS2K25CROSSGENED/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Sports"],
+    "oldPrice": 60
+  },
+  {
+    "id": 192,
+    "slug": "twisted-metal",
+    "title": "Twisted Metal",
+    "price": 19,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-NPEA00362_00-TWISTEDMETAL0100/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Racing", "Arcade", "Action"],
+    "oldPrice": 44
+  },
+  {
+    "id": 193,
+    "slug": "uncharted-4-a-thiefs-end-playstation-hits",
+    "title": "Uncharted 4: A Thief’s End (PlayStation Hits)",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 50
+  },
+  {
+    "id": 194,
+    "slug": "uncharted-legacy-of-thieves-collection",
+    "title": "Uncharted: Legacy of Thieves Collection",
+    "price": 55,
+    "image": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 80
+  },
+  {
+    "id": 195,
+    "slug": "undisputed",
+    "title": "Undisputed",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4062-PPSA21914_00-UNDISPUTEDPS5EU1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Indie", "Action", "Simulation", "Sports"],
+    "oldPrice": 70
+  },
+  {
+    "id": 196,
+    "slug": "unravel-two",
+    "title": "Unravel Two",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA10416_00-COLDWOODPIKE0000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Platformer", "Adventure", "Action", "Puzzle"],
+    "oldPrice": 40
+  },
+  {
+    "id": 197,
+    "slug": "warhammer-40-000-space-marine-2",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "price": 45,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4133-PPSA04451_00-SPACEMARINESII00/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 70
+  },
+  {
+    "id": 198,
+    "slug": "watch-dogs-2",
+    "title": "Watch Dogs 2",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA04295_00-WD2FULLGAME00000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 199,
+    "slug": "watch-dogs-legion",
+    "title": "Watch Dogs: Legion",
+    "price": 18,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA01500_00-ORWFULLGAME00000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Adventure", "Action"],
+    "oldPrice": 43
+  },
+  {
+    "id": 200,
+    "slug": "werewolf-the-apocalypse-earthblood",
+    "title": "Werewolf: The Apocalypse – Earthblood",
+    "price": 25,
+    "image": "https://media.rawg.io/media/games/dbe/dbe51f372bc094270b2e500b5c864723.jpg",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 50
+  },
+  {
+    "id": 201,
+    "slug": "winx-club-the-magic-is-back",
+    "title": "Winx Club: The Magic is Back",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP8208-PPSA31885_00-WINXCLUB00000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 40
+  },
+  {
+    "id": 202,
+    "slug": "the-witcher-3-wild-hunt",
+    "title": "The Witcher 3: Wild Hunt",
+    "price": 18,
+    "image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+    "genres": ["Action", "RPG"],
+    "oldPrice": 43
+  },
+  {
+    "id": 203,
+    "slug": "wo-long-fallen-dynasty",
+    "title": "Wo Long: Fallen Dynasty",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4108-PPSA08773_00-WOLONG0000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Action"],
+    "oldPrice": 60
+  },
+  {
+    "id": 204,
+    "slug": "wolfenstein-ii-the-new-colossus",
+    "title": "Wolfenstein II: The New Colossus",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1003-CUSA07378_00-COLOSSUSFULLGAME/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 205,
+    "slug": "world-war-z-aftermath-deluxe-edition",
+    "title": "World War Z: Aftermath (Deluxe Edition)",
+    "price": 15,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP6853-PPSA05425_00-WWZAMDELUXE00000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Shooter", "Arcade", "Action"],
+    "oldPrice": 40
+  },
+  {
+    "id": 206,
+    "slug": "wuchang-fallen-feathers",
+    "title": "Wuchang: Fallen Feathers",
+    "price": 35,
+    "image": "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4040-PPSA09519_00-WUCHANGPS5000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+    "genres": ["Adventure", "Action", "RPG"],
+    "oldPrice": 60
+  }
+]
