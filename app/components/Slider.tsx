@@ -1,39 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import Image from "next/image";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const images = [
-  "/banners/banner 1.jpg",
+  "/banners/banner1.jpg",
   "/banners/banner2.jpg",
   "/banners/banner3.jpg",
   "/banners/banner4.jpg",
 ];
 
 export default function Slider() {
-  const [current, setCurrent] = useState(0);
-
   return (
-    <div className="flex items-center justify-center gap-4 mt-10 px-10">
-      <button
-        className="text-3xl hover:text-emerald-400"
-        onClick={() =>
-          setCurrent((current - 1 + images.length) % images.length)
-        }
-      >
-        ←
-      </button>
-      <img
-        src={images[current]}
-        alt=""
-        className="max-h-[500px] w-auto object-contain rounded-lg mx-auto"
-      />
-
-      <button
-        onClick={() => setCurrent((current + 1) % images.length)}
-        className="text-3xl hover:text-emerald-400"
-      >
-        →
-      </button>
+    <div className="max-w-2xl mx-auto mt-10 px-4">
+      <Swiper modules={[Pagination]} pagination={{ clickable: true }} loop>
+        {images.map((src, i) => (
+          <SwiperSlide key={i}>
+            <Image
+              src={src}
+              alt={`ბანერი ${i + 1}`}
+              width={500}
+              height={300}
+              className="w-full h-auto object-contain rounded-lg"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 }

@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "slug": "essential",
+    "title": "Essential",
+    "duration": "12 months",
+    "prices": [
+      { "label": "PS5", "value": 95 },
+      { "label": "PS4", "value": 45 }
+    ],
+    "features": ["ქსელში თამაში", "3 უფასო თამაში"]
+  },
+  {
+    "id": 2,
+    "slug": "extra",
+    "title": "Extra",
+    "duration": "12 months",
+    "prices": [
+      { "label": "PS5", "value": 155 },
+      { "label": "PS5 (sec)", "value": 88 },
+      { "label": "PS4", "value": 88 }
+    ],
+    "features": ["ქსელში თამაში", "500 უფასო თამაში"]
+  },
+  {
+    "id": 3,
+    "slug": "deluxe",
+    "title": "Deluxe",
+    "duration": "12 months",
+    "prices": [
+      { "label": "PS5", "value": 185 },
+      { "label": "PS5 (sec)", "value": 105 },
+      { "label": "PS4", "value": 99 }
+    ],
+    "features": ["ქსელში თამაში", "600 უფასო თამაში"]
+  },
+  {
+    "id": 4,
+    "slug": "ea-play",
+    "title": "EA-PLAY",
+    "duration": "12 months",
+    "prices": [
+      { "label": "PS5", "value": 75 },
+      { "label": "PS4", "value": 45 }
+    ],
+    "features": ["ქსელში თამაში", "40 უფასო თამაში"]
+  }
+]

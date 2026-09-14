@@ -39,6 +39,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               ყველა თამაში
             </Link>
             <Link
+              href="/subscriptions"
+              className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg hover:text-emerald-500 transition-colors"
+            >
+              PS PLUS
+            </Link>
+            <Link
               href="/about-us"
               className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg hover:text-emerald-500 transition-colors"
             >
