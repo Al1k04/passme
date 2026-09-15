@@ -44,6 +44,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             >
               PS PLUS
             </Link>
+            <Link
+              href="/combo"
+              className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg hover:text-emerald-500 transition-colors"
+            >
+              კომბო
+            </Link>
           </nav>
         </header>
         {children}
