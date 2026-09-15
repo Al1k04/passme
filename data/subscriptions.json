@@ -4,6 +4,7 @@
     "slug": "essential",
     "title": "Essential",
     "duration": "12 months",
+    "images": ["/sub_images/essential.jpg"],
     "prices": [
       { "label": "PS5", "value": 95 },
       { "label": "PS4", "value": 45 }
@@ -15,6 +16,7 @@
     "slug": "extra",
     "title": "Extra",
     "duration": "12 months",
+    "images": ["/sub_images/extra.jpg"],
     "prices": [
       { "label": "PS5", "value": 155 },
       { "label": "PS5 (sec)", "value": 88 },
@@ -27,6 +29,7 @@
     "slug": "deluxe",
     "title": "Deluxe",
     "duration": "12 months",
+    "images": ["/sub_images/deluxe.jpg"],
     "prices": [
       { "label": "PS5", "value": 185 },
       { "label": "PS5 (sec)", "value": 105 },
@@ -39,6 +42,7 @@
     "slug": "ea-play",
     "title": "EA-PLAY",
     "duration": "12 months",
+    "images": ["/sub_images/ea-play.jpg"],
     "prices": [
       { "label": "PS5", "value": 75 },
       { "label": "PS4", "value": 45 }
