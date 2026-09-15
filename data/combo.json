@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Far Cry 5 Ultimate Edition + Far Cry New Dawn + The Evil Within 2 + Just Cause 3 XXL Edition",
+    "price": 22,
+    "oldPrice": 39,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA13886_00-ULTIMATEEDITION0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1003-CUSA08975_00-PRJGDN0000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0082-CUSA02748_00-JC3XXL00000000EX/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "far-cry-5-new-dawn-evil-within-2-just-cause-3"
+  },
+  {
+    "id": 2,
+    "title": "Call of Duty: Vanguard + Call of Duty: WWII + Mortal Kombat 11 Ultimate",
+    "price": 32,
+    "oldPrice": 35,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA29092_00-CODVSTANDARD0001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA08653_00-CODWWIIGOLDED001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-PPSA01617_00-MK11ULTIMATEKOLL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "call-of-duty-vanguard-wwii-mortal-kombat-11-ultimate"
+  },
+  {
+    "id": 3,
+    "title": "Crash Bandicoot 4 + Crash Bandicoot N. Sane Trilogy + Crash Team Racing Nitro-Fueled",
+    "price": 35,
+    "oldPrice": 55,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-PPSA02432_00-CB4THEGAME000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0002-CUSA13795_00-CTRCBTBUNDLE0001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "crash-bandicoot-4-n-sane-trilogy-crash-team-racing"
+  },
+  {
+    "id": 4,
+    "title": "Mafia Definitive Edition + Mafia II Definitive Edition + Mafia III Definitive Edition",
+    "price": 35,
+    "oldPrice": 55,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1001-CUSA03652_00-MAFIATRILOGYDEFI/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "mafia-definitive-edition-mafia-2-mafia-3"
+  },
+  {
+    "id": 5,
+    "title": "Sniper Ghost Warrior Contracts 2 + Call of Duty: WWII Gold Edition + Mortal Kombat 11 Ultimate",
+    "price": 25,
+    "oldPrice": 39,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4321-PPSA03130_00-2478417276876954/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA08653_00-CODWWIIGOLDED001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-PPSA01617_00-MK11ULTIMATEKOLL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "sniper-ghost-warrior-contracts-2-wwii-mortal-kombat-11"
+  },
+  {
+    "id": 6,
+    "title": "Grand Theft Auto V (PS4 & PS5 Bundle) + Mortal Kombat 11 Ultimate",
+    "price": 39,
+    "oldPrice": 45,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1004-PPSA03420_00-GTAVCROSSGENBUND/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-PPSA01617_00-MK11ULTIMATEKOLL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "gta-5-ps4-ps5-mortal-kombat-11-ultimate"
+  },
+  {
+    "id": 7,
+    "title": "It Takes Two + A Way Out",
+    "price": 39,
+    "oldPrice": 55,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0006-PPSA02424_00-HAZELIGHTBUNDLE5/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "it-takes-two-a-way-out"
+  },
+  {
+    "id": 8,
+    "title": "Resident Evil 3 + Resident Evil 2",
+    "price": 35,
+    "oldPrice": 45,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0102-PPSA03952_00-BH3ROFF000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0102-PPSA04288_00-BH2R000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "resident-evil-3-resident-evil-2"
+  }
+]

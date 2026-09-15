@@ -15,7 +15,6 @@ export default function GameCards(props: GameCardPros) {
         </div>
 
         <div className="flex flex-col gap-3 mt-auto">
-          {/* строка с ценами */}
           <div className="flex items-center gap-2">
             <span className="text-emerald-400 font-bold text-2xl">
               {props.game.price} ₾

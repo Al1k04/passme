@@ -1,16 +1,14 @@
-import Image from "next/image";
+import Combos from "../components/Combos";
+import combos from "@/data/combo.json";
 
-export default function Combo() {
+export default function ComboPage() {
   return (
     <div>
-      <h1 className="text-center text-2xl font-bold my-4">კომბო ექაუნთები</h1>
-      <Image
-        src="/game-photos/combo.jpg"
-        alt="Combo games"
-        width={896}
-        height={500}
-        className="w-full max-w-2xl mx-auto rounded-lg"
-      />
+      <h1 className="text-center text-2xl font-bold mb-4 mt-4">
+        კომბო ექაუნთები
+      </h1>
+
+      <Combos combos={combos} />
     </div>
   );
 }
