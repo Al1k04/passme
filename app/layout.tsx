@@ -29,24 +29,30 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             href="/"
             className="text-xl sm:text-2xl text-emerald-500 font-bold"
           >
-            Passme
+            <img
+              src="/logo/logo.png"
+              alt="Passme"
+              className="w-[120px] h-[60px] object-contain"
+            />
           </Link>
-          <nav className="flex gap-2 text-xs sm:text-base">
+          <nav className="flex gap-4 sm:gap-2 text-[13px] sm:text-base">
             <Link
               href="/games"
-              className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg border border-emerald-500 rounded-lg hover:text-emerald-500 transition-colors"
+              className="p-1 sm:p-2 bg-neutral-800 rounded-lg border border-emerald-500 hover:text-emerald-500 transition-colors"
             >
               ყველა თამაში
             </Link>
+
             <Link
               href="/subscriptions"
-              className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg border border-emerald-500 rounded-lg hover:text-emerald-500 transition-colors"
+              className="p-1 sm:p-2 bg-neutral-800 rounded-lg border border-emerald-500 hover:text-emerald-500 transition-colors"
             >
               PS PLUS
             </Link>
+
             <Link
               href="/combo"
-              className="p-1 sm:p-2 sm:bg-neutral-800 sm:rounded-lg border border-emerald-500 rounded-lg hover:text-emerald-500 transition-colors"
+              className="p-1 sm:p-2 bg-neutral-800 rounded-lg border border-emerald-500 hover:text-emerald-500 transition-colors"
             >
               კომბო
             </Link>
@@ -63,14 +69,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           >
             Our Facebook
           </a>
-          <a
+          {/* <a
             href="https://rawg.io"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer p-2 hover:bg-emerald-500 hover:text-neutral-900 transition-colors ease-in-out rounded-lg"
           >
             Game data provided by RAWG
-          </a>
+          </a> */}
           <span>© {new Date().getFullYear()} Passme</span>
         </footer>
       </body>

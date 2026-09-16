@@ -8,7 +8,6 @@ type ComboCardProps = {
 export default function ComboCard({ combo }: ComboCardProps) {
   return (
     <li className="flex flex-col gap-1 bg-neutral-900 border border-neutral-800 p-3 rounded-lg hover:border-emerald-500 transition-colors ease-in-out">
-      {/* Фотографии в один ряд */}
       <div className="flex justify-center gap-2 mb-4">
         {combo.images.map((image, index) => (
           <img
@@ -20,16 +19,13 @@ export default function ComboCard({ combo }: ComboCardProps) {
         ))}
       </div>
 
-      {/* Название */}
       <div className="flex gap-2 mb-4">
         <span>{combo.id}.</span>
 
         <h2 className="text-neutral-100">{combo.title}</h2>
       </div>
 
-      {/* Цена + кнопка */}
       <div className="flex items-center justify-between gap-2 mt-auto">
-        {/* Цена */}
         <div className="flex items-center gap-2">
           <span className="text-emerald-400 font-bold text-2xl">
             {combo.price} ₾
@@ -42,7 +38,6 @@ export default function ComboCard({ combo }: ComboCardProps) {
           )}
         </div>
 
-        {/* Facebook */}
         <a
           href="https://www.facebook.com/profile.php?id=100093207031308"
           target="_blank"

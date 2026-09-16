@@ -8,6 +8,12 @@ export default function Home() {
         🎮 PASSME – Back to the School ! ⚡️
       </h1>
       <Slider />
+      <Link
+        href="/review"
+        className="block w-fit mb-5 mx-auto mt-4 p-2 bg-neutral-800 rounded-lg border border-emerald-500 hover:text-emerald-500 transition-colors"
+      >
+        შეფასების დატოვება
+      </Link>
     </div>
   );
 }
