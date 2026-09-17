@@ -1,13 +1,12 @@
 import Slider from "./components/Slider";
 import Link from "next/link";
 import ScrollReveal from "./components/ScrollReveal";
+import SaleTimer from "./components/SaleTimer";
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      {/* HERO */}
       <section className="relative px-4 pt-10 pb-14 sm:pt-16 sm:pb-20">
-        {/* Glow */}
         <div className="pointer-events-none absolute left-1/2 top-10 -z-10 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-500/10 blur-3xl" />
 
         <div className="mx-auto max-w-5xl text-center">
@@ -29,7 +28,6 @@ export default function Home() {
             სივრცეში.
           </p>
 
-          {/* Buttons */}
           <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
               href="/games"
@@ -50,7 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SLIDER */}
       <ScrollReveal>
         <section className="relative mx-auto max-w-7xl px-4">
           <div className="mb-5 flex items-center justify-between">
@@ -72,10 +69,10 @@ export default function Home() {
           <div className="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-2 shadow-[0_0_50px_rgba(0,0,0,0.25)]">
             <Slider />
           </div>
+          <SaleTimer />
         </section>
       </ScrollReveal>
 
-      {/* FEATURES */}
       <ScrollReveal>
         <section className="mx-auto max-w-6xl px-4 py-16">
           <div className="mb-8 text-center">
@@ -134,7 +131,6 @@ export default function Home() {
         </section>
       </ScrollReveal>
 
-      {/* REVIEW CTA */}
       <ScrollReveal>
         <section className="mx-auto max-w-4xl px-4 pb-16">
           <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-8 text-center sm:p-12">
