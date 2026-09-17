@@ -1,6 +1,7 @@
 import { Game } from "@/types/games";
 import { FaFacebook } from "react-icons/fa";
 import ScrollReveal from "@/app/components/ScrollReveal";
+import Image from "next/image";
 
 type GameCardPros = {
   game: Game;
@@ -23,11 +24,12 @@ export default function GameCards({ game }: GameCardPros) {
             </h2>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg mb-4">
-            <img
+          <div className="relative aspect-video overflow-hidden rounded-lg mb-4">
+            <Image
               src={game.image}
               alt={game.title}
-              className="w-full aspect-video object-cover translate-y-3 scale-[1.02] opacity-90 transition-all duration-700 ease-out group-hover:translate-y-0 group-hover:scale-105 group-hover:opacity-100"
+              fill
+              className="object-cover translate-y-3 scale-[1.02] opacity-90 transition-all duration-700 ease-out group-hover:translate-y-0 group-hover:scale-105 group-hover:opacity-100"
             />
           </div>
 
@@ -36,7 +38,7 @@ export default function GameCards({ game }: GameCardPros) {
               {game.price} ₾
             </span>
 
-            {game.oldPrice && (
+            {Boolean(game.oldPrice) && (
               <span className="text-sm text-neutral-500 line-through">
                 {game.oldPrice} ₾
               </span>

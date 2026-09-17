@@ -4,6 +4,6 @@ export type Game = {
   title: string;
   price: number;
   oldPrice?: number;
-  image?: string;
+  image: string;
   genres: string[];
 };
