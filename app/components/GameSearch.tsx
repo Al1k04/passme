@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Game } from "@/types/games";
+import type { Game } from "@prisma/client";
 import GameCards from "./GameCards";
 import { IoClose, IoSearch } from "react-icons/io5";
 import ScrollReveal from "@/app/components/ScrollReveal";

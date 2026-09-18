@@ -10,6 +10,8 @@ const mockGames = [
     price: 20,
     image: "/games/test.jpg",
     genres: ["Action"],
+    isTop: false,
+    createdAt: new Date(),
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ const mockGames = [
     price: 22,
     image: "/games/test2.jpg",
     genres: ["Shooter"],
+    isTop: false,
+    createdAt: new Date(),
   },
 ];
 

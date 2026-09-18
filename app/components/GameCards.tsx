@@ -1,4 +1,4 @@
-import { Game } from "@/types/games";
+import type { Game } from "@prisma/client";
 import { FaFacebook } from "react-icons/fa";
 import ScrollReveal from "@/app/components/ScrollReveal";
 import Image from "next/image";
