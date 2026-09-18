@@ -27,7 +27,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col overflow-x-hidden bg-neutral-950">
         <header className="flex items-center justify-between gap-4 px-4 py-3 border-b border-neutral-900">
-          {/* Logo */}
           <Link
             href="/"
             className="group shrink-0 rounded-xl transition-all duration-300 hover:scale-105"
@@ -62,7 +61,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </nav>
           </div>
 
-          {/* Mobile menu */}
           <div className="sm:hidden">
             <MobileMenu />
           </div>
@@ -70,7 +68,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
         {children}
 
-        {/* Footer */}
         <footer className="mt-auto flex flex-col items-center gap-1 border-t border-neutral-900 py-6 text-sm text-neutral-500">
           <a
             href="https://www.facebook.com/profile.php?id=100093207031308"
