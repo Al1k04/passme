@@ -24,12 +24,12 @@ export default function GameCards({ game }: GameCardPros) {
             </h2>
           </div>
 
-          <div className="relative aspect-[4/3] overflow-hidden rounded-xl mb-4">
+          <div className="relative aspect-[3/4] overflow-hidden rounded-xl mb-4">
             <Image
               src={game.image}
               alt={game.title}
               fill
-              className="object-contain opacity-90 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+              className="object-cover transition-all duration-700 ease-out group-hover:scale-105"
             />
 
             {game.isTop && (
