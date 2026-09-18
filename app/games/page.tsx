@@ -2,6 +2,8 @@ import { prisma } from "@/lib/prisma";
 import GameSearch from "../components/GameSearch";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function GameCatalogue() {
   const games = await prisma.game.findMany({
     orderBy: { title: "asc" },
