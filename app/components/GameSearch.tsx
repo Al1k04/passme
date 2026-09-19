@@ -5,12 +5,14 @@ import type { Game } from "@prisma/client";
 import GameCards from "./GameCards";
 import { IoClose, IoSearch } from "react-icons/io5";
 import ScrollReveal from "@/app/components/ScrollReveal";
-
+import GenreFilter from "./GenreFilter";
 type Props = {
   games: Game[];
+  genres: string[];
+  selected?: string;
 };
 
-export default function GameSearch({ games }: Props) {
+export default function GameSearch({ games, genres, selected }: Props) {
   const [query, setQuery] = useState("");
 
   const filtered = games.filter((game) =>
@@ -47,31 +49,34 @@ export default function GameSearch({ games }: Props) {
             </div>
 
             <div className="mx-auto max-w-3xl">
-              <div className="group relative">
-                <div className="pointer-events-none absolute -inset-1 rounded-2xl bg-emerald-500/10 opacity-0 blur-xl transition-opacity duration-500 group-focus-within:opacity-100" />
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                <div className="group relative w-full sm:flex-1">
+                  <div className="pointer-events-none absolute -inset-1 rounded-2xl bg-emerald-500/10 opacity-0 blur-xl transition-opacity duration-500 group-focus-within:opacity-100" />
 
-                <div className="relative flex items-center rounded-2xl border border-neutral-800 bg-neutral-900/70 p-1.5 shadow-[0_0_40px_rgba(0,0,0,0.2)] transition-all duration-300 group-focus-within:border-emerald-500/60 group-focus-within:shadow-[0_0_30px_rgba(16,185,129,0.08)]">
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center text-neutral-500 transition-colors duration-300 group-focus-within:text-emerald-400">
-                    <IoSearch className="h-5 w-5" />
+                  <div className="relative flex items-center rounded-2xl border border-neutral-800 bg-neutral-900/70 p-1.5 shadow-[0_0_40px_rgba(0,0,0,0.2)] transition-all duration-300 group-focus-within:border-emerald-500/60 group-focus-within:shadow-[0_0_30px_rgba(16,185,129,0.08)]">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center text-neutral-500 transition-colors duration-300 group-focus-within:text-emerald-400">
+                      <IoSearch className="h-5 w-5" />
+                    </div>
+
+                    <input
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      placeholder="მოძებნე თამაში..."
+                      className="min-w-0 flex-1 bg-transparent px-1 text-sm text-neutral-100 outline-none placeholder:text-neutral-600 sm:text-base"
+                    />
+
+                    {query && (
+                      <button
+                        onClick={() => setQuery("")}
+                        aria-label="Clear search"
+                        className="mr-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-neutral-500 transition-all duration-300 hover:bg-emerald-500 hover:text-neutral-950"
+                      >
+                        <IoClose className="h-5 w-5" />
+                      </button>
+                    )}
                   </div>
-
-                  <input
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder="მოძებნე თამაში..."
-                    className="min-w-0 flex-1 bg-transparent px-1 text-sm text-neutral-100 outline-none placeholder:text-neutral-600 sm:text-base"
-                  />
-
-                  {query && (
-                    <button
-                      onClick={() => setQuery("")}
-                      aria-label="Clear search"
-                      className="mr-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-neutral-500 transition-all duration-300 hover:bg-emerald-500 hover:text-neutral-950"
-                    >
-                      <IoClose className="h-5 w-5" />
-                    </button>
-                  )}
                 </div>
+                <GenreFilter genres={genres} selected={selected} />
               </div>
 
               <div className="mt-3 flex items-center justify-between px-1 text-xs">
