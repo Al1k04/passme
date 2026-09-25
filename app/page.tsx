@@ -20,12 +20,12 @@ export default function Home() {
           </h1>
 
           <h2 className="mt-3 text-xl font-bold text-emerald-400 sm:text-3xl">
-            Back to the School 🎮⚡
+            ⚽️🔥 ახალი EA SPORTS FC 27 უკვე ხელმისაწვდომია! 🚀
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-neutral-400 sm:text-base">
-            აირჩიე შენი საყვარელი თამაშები, კომბოები და PS Plus გამოწერები ერთ
-            სივრცეში.
+            შექმენი შენი გუნდი, დაიწყე ახალი სეზონი და ითამაშე ფეხბურთი ისე,
+            როგორც არასდროს! ⚽️🏆
           </p>
 
           <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
@@ -62,7 +62,7 @@ export default function Home() {
               </p>
 
               <h2 className="mt-1 text-2xl font-bold text-neutral-100 sm:text-3xl">
-                პოპულარული თამაშები
+                SPECIAL OFFER
               </h2>
             </div>
 
@@ -71,8 +71,23 @@ export default function Home() {
             </span>
           </div>
 
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-2 shadow-[0_0_50px_rgba(0,0,0,0.25)]">
-            <Slider />
+          <div className="relative overflow-hidden rounded-2xl border border-neutral-800 shadow-[0_0_50px_rgba(0,0,0,0.25)]">
+            <div
+              className="absolute inset-0 scale-110 bg-cover bg-center blur-xl"
+              style={{
+                backgroundImage: "url('/banners/disc_fc27.jpg')",
+              }}
+            />
+
+            <div className="absolute inset-0 bg-black/60" />
+
+            <div className="relative flex justify-center p-4">
+              <img
+                src="/banners/disc_fc27.jpg"
+                alt="September sale"
+                className="w-[50%] rounded-xl object-contain"
+              />
+            </div>
           </div>
 
           <SaleTimer />

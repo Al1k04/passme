@@ -1,8 +1,9 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -16,7 +17,15 @@ const images = [
 export default function Slider() {
   return (
     <div className="max-w-2xl mx-auto mt-10 px-4">
-      <Swiper modules={[Pagination]} pagination={{ clickable: true }} loop>
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        pagination={{ clickable: true }}
+        loop
+      >
         {images.map((src, i) => (
           <SwiperSlide key={i}>
             <Image

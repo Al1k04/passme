@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const SALE_END = new Date("2026-09-22T23:59:59");
+const SALE_END = new Date("2026-10-10T23:59:59");
 
 function getTimeLeft() {
   const diff = Math.max(0, SALE_END.getTime() - Date.now());
@@ -20,7 +20,6 @@ function TimeCard({ value, label }: { value: number; label: string }) {
     <div className="group relative flex min-w-0 flex-1 flex-col items-center justify-center overflow-hidden rounded-xl border border-emerald-500/20 bg-neutral-900/70 px-2 py-4 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-400/50 hover:shadow-[0_0_25px_rgba(16,185,129,0.12)] sm:px-4 sm:py-5">
       {" "}
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-emerald-400/60 to-transparent" />
-      ```
       <span className="text-2xl font-black tabular-nums tracking-tight text-neutral-100 sm:text-4xl">
         {String(value).padStart(2, "0")}
       </span>
@@ -71,11 +70,11 @@ export default function SaleTimer() {
         </div>
 
         <h3 className="text-xl font-black tracking-tight text-neutral-100 sm:text-2xl">
-          Back to the School
+          ⚽️🔥 ახალი EA SPORTS FC 27 უკვე ხელმისაწვდომია! 🚀
         </h3>
 
         <p className="mt-1 text-xs text-neutral-500 sm:text-sm">
-          სპეციალური შეთავაზება მთავრდება მალე ⚡
+          FC 27 — სპეციალური შეთავაზება ⚽🔥
         </p>
 
         {isFinished ? (
