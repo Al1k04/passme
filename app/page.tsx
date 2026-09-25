@@ -82,11 +82,12 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/60" />
 
             <div className="relative flex justify-center p-4">
-              <img
+              {/* <img
                 src="/banners/disc_fc27.jpg"
                 alt="September sale"
                 className="w-[50%] rounded-xl object-contain"
-              />
+              /> */}
+              <Slider />
             </div>
           </div>
 

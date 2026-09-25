@@ -10,8 +10,9 @@ import "swiper/css/pagination";
 
 const images = [
   "/banners/disc_september1.jpg",
-  "/banners/disc_september2.jpg",
-  "/banners/disc_september3.jpg",
+  // "/banners/disc_september2.jpg",
+  // "/banners/disc_september3.jpg",
+  "/banners/disc_fc27.jpg",
 ];
 
 export default function Slider() {
