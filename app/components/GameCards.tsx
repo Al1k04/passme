@@ -3,28 +3,28 @@ import { FaFacebook } from "react-icons/fa";
 import ScrollReveal from "@/app/components/ScrollReveal";
 import Image from "next/image";
 
-type GameCardPros = {
+type GameCardProps = {
   game: Game;
 };
 
-export default function GameCards({ game }: GameCardPros) {
+export default function GameCards({ game }: GameCardProps) {
   return (
     <ScrollReveal>
       <li className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 transition-all duration-500 hover:-translate-y-1 hover:border-emerald-500/70 hover:shadow-[0_0_30px_rgba(16,185,129,0.12)]">
         <div className="flex h-full flex-col p-4">
-          <div className="flex min-h-[64px] items-start gap-3 mb-4">
-            <span className="relative flex shrink-0 items-center justify-center px-3 h-8 rounded-lg border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 font-bold overflow-hidden">
+          <div className="mb-4 flex min-h-[64px] items-start gap-3">
+            <span className="relative flex h-8 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-emerald-500/30 bg-emerald-500/10 px-3 font-bold text-emerald-400">
               <span className="relative z-10">Passme</span>
 
               <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-emerald-400/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
             </span>
 
-            <h2 className="text-lg font-semibold text-neutral-100 leading-snug">
+            <h2 className="text-lg font-semibold leading-snug text-neutral-100">
               {game.title}
             </h2>
           </div>
 
-          <div className="relative aspect-[3/4] overflow-hidden rounded-xl mb-4">
+          <div className="relative mb-4 aspect-[3/4] overflow-hidden rounded-xl">
             <Image
               src={game.image}
               alt={game.title}
@@ -39,8 +39,8 @@ export default function GameCards({ game }: GameCardPros) {
             )}
           </div>
 
-          <div className="flex items-center gap-2 mb-4">
-            <span className="text-emerald-400 font-bold text-2xl whitespace-nowrap">
+          <div className="mb-3 flex items-center gap-2">
+            <span className="whitespace-nowrap text-2xl font-bold text-emerald-400">
               {game.price} ₾
             </span>
 
@@ -49,6 +49,28 @@ export default function GameCards({ game }: GameCardPros) {
                 {game.oldPrice} ₾
               </span>
             )}
+          </div>
+
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span
+              className={`rounded-md border px-2.5 py-1 text-xs font-semibold ${
+                game.ps4Stock > 0
+                  ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-400"
+                  : "border-neutral-700 bg-neutral-800 text-neutral-500"
+              }`}
+            >
+              PS4: {game.ps4Stock > 0 ? "მარაგშია" : "არ არის მარაგში"}
+            </span>
+
+            <span
+              className={`rounded-md border px-2.5 py-1 text-xs font-semibold ${
+                game.ps5Stock > 0
+                  ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-400"
+                  : "border-neutral-700 bg-neutral-800 text-neutral-500"
+              }`}
+            >
+              PS5: {game.ps5Stock > 0 ? "მარაგშია" : "არ არის მარაგში"}
+            </span>
           </div>
 
           <a

@@ -99,9 +99,11 @@ export default function GameSearch({ games, genres, selected }: Props) {
             <div className="pointer-events-none absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
 
             <ul className="grid grid-cols-1 gap-7 p-0 sm:grid-cols-2 lg:grid-cols-4">
-              {filtered.map((game) => (
-                <GameCards key={game.id} game={game} />
-              ))}
+              {filtered.map((game) => {
+                console.log("GAME IN SEARCH:", game);
+
+                return <GameCards key={game.id} game={game} />;
+              })}
             </ul>
           </div>
         </section>

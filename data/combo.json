@@ -87,5 +87,89 @@
       "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0102-PPSA04288_00-BH2R000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
     ],
     "slug": "resident-evil-3-resident-evil-2"
+  },
+  {
+    "id": 9,
+    "title": "Red Dead Redemption 2 Ultimate + Mortal Combat 11 Ultimate",
+    "price": 45,
+    "oldPrice": 65,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-PPSA01617_00-MK11ULTIMATEKOLL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "red-dead-redemption-mortal-combat-ultimate"
+  },
+
+  {
+    "id": 10,
+    "title": "Assassin’s Creed Mirage + Assassin’s Creed Odyssey + Assassin’s Creed Valhalla",
+    "price": 39,
+    "oldPrice": 59,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA13960_00-EDITIONSTANDARD0/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA12042_00-GAME000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA01532_00-GAME000000000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "mirage-odyssey-valhalla"
+  },
+  {
+    "id": 11,
+    "title": "Riders Republic + Mortal Kombat 11 Ultimate + Ghost Recon Breakpoint",
+    "price": 29,
+    "oldPrice": 49,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-PPSA01372_00-MADSTANDARTED000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP1018-PPSA01617_00-MK11ULTIMATEKOLL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0001-CUSA16001_00-GRW2SCEEUKRUS000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "riders-republic-mortal-combat-ghost-recon-breakpoint"
+  },
+  {
+    "id": 12,
+    "title": "Call of Duty®: WWII + Crash™ Team Racing Nitro-Fueled + Spyro",
+    "price": 29,
+    "oldPrice": 49,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA08653_00-CODWWIIGOLDED001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA14876_00-CRASHTEAMRACING1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA12085_00-SPYROTRILOGY0001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "wwii-nitro-fueled-spyro"
+  },
+  {
+    "id": 13,
+    "title": "Rescue Team 911 Simulator + Thief Simulator + Prison Simulator",
+    "price": 29,
+    "oldPrice": 39,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/UB0797-CUSA49087_00-0108246090547964/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1549-CUSA20097_00-CLABS0TS20200430/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP1549-CUSA37735_00-CLABS1PS20221231/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "911-simulator-thief-simulaor-prison-simulator"
+  },
+  {
+    "id": 14,
+    "title": "Metro 2033 Redux + Metro Exodus + Metro: Last Light Redux",
+    "price": 35,
+    "oldPrice": 55,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP2047-CUSA00683_00-MCOMPLREDUXDISC1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4062-PPSA01749_00-METROEXODUS0GEN9/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP4062-CUSA00592_00-MLLREDUXDIGITAL1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "redux-exodus-last-night-redux"
+  },
+  {
+    "id": 15,
+    "title": "Marvel’s Spider-Man: Miles Morales + Marvel’s Spider-Man Remastered + Crash™ + Spyro™ Triple Play",
+    "price": 39,
+    "oldPrice": 59,
+    "images": [
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA01461_00-MARVELSSMMORALES/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP9000-PPSA01470_00-MARVELSSPIDERMAN/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0002-CUSA14876_00-CTRSRTCBTBUNDLE1/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+    ],
+    "slug": "redux-exodus-last-night-redux"
   }
 ]

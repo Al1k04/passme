@@ -9,13 +9,28 @@ datasource db {
 }
 
 model Game {
-  id        Int      @id @default(autoincrement())
-  slug      String   @unique
-  title     String
-  price     Int
-  oldPrice  Int?
-  image     String
-  genres    String[]
-  isTop     Boolean  @default(false)
-  createdAt DateTime @default(now())
+  id               Int              @id @default(autoincrement())
+  slug             String           @unique
+  title            String
+  price            Int
+  oldPrice         Int?
+  image            String
+  genres           String[]
+  isTop            Boolean          @default(false)
+  ps4Stock         Int              @default(0)
+  ps5Stock         Int              @default(0)
+  createdAt        DateTime         @default(now())
+  inventoryAliases InventoryAlias[]
+}
+
+model InventoryAlias {
+  id              Int      @id @default(autoincrement())
+  sourceTitle     String   @unique
+  normalizedTitle String   @unique
+  gameId          Int
+  createdAt       DateTime @default(now())
+
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@index([gameId])
 }

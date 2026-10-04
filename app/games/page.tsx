@@ -12,6 +12,7 @@ export default async function GameCatalogue({
 }) {
   const params = await searchParams;
   const genre = params.genre;
+
   console.log(genre);
 
   const games = await prisma.game.findMany({
@@ -19,7 +20,13 @@ export default async function GameCatalogue({
     orderBy: { title: "asc" },
   });
 
+  console.log(
+    "MW II:",
+    games.find((game) => game.id === 55),
+  );
+
   const allGames = await prisma.game.findMany();
+
   const genres = [...new Set(allGames.flatMap((game) => game.genres))];
 
   return (
