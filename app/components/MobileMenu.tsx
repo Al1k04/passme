@@ -3,11 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 import { IoClose, IoMenu } from "react-icons/io5";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
 
   const closeMenu = () => setOpen(false);
+
+  const { t } = useLanguage();
 
   return (
     <>
@@ -50,7 +54,7 @@ export default function MobileMenu() {
             className="group flex items-center rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-4 text-neutral-100 transition-all duration-300 hover:translate-x-1 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
           >
             <span className="mr-3 h-2 w-2 rounded-full bg-emerald-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            ყველა თამაში
+            {t("nav.allGames")}
           </Link>
 
           <Link
@@ -68,7 +72,7 @@ export default function MobileMenu() {
             className="group flex items-center rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-4 text-neutral-100 transition-all duration-300 hover:translate-x-1 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
           >
             <span className="mr-3 h-2 w-2 rounded-full bg-emerald-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            კომბო
+            {t("nav.combo")}
           </Link>
 
           <Link
@@ -77,8 +81,11 @@ export default function MobileMenu() {
             className="group flex items-center rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-4 text-neutral-100 transition-all duration-300 hover:translate-x-1 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
           >
             <span className="mr-3 h-2 w-2 rounded-full bg-emerald-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            ინსტრუქციები
+            {t("nav.instructions")}
           </Link>
+          <div>
+            <LanguageSwitcher />
+          </div>
         </nav>
 
         <div className="mt-auto p-5">

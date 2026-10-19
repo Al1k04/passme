@@ -1,8 +1,12 @@
+"use client";
+
 import subscriptions from "@/data/subscriptions.json";
 import InfoModal from "../components/InfoModal";
 import ScrollReveal from "../components/ScrollReveal";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function SubscriptionsPage() {
+  const { lang, t } = useLanguage();
   return (
     <main className="min-h-screen overflow-hidden bg-neutral-950">
       <section className="relative px-4 pb-16 pt-12 sm:pt-16">
@@ -16,12 +20,11 @@ export default function SubscriptionsPage() {
             </div>
 
             <h1 className="text-3xl font-black tracking-tight text-white sm:text-5xl">
-              PS Plus გამოწერები
+              {t("subs.title")}
             </h1>
 
             <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-neutral-500 sm:text-base">
-              აირჩიე შენთვის სასურველი PS Plus გამოწერა და მიიღე წვდომა
-              საუკეთესო თამაშებსა და შესაძლებლობებზე.
+              {t("subs.subtitle")}
             </p>
 
             <div className="mx-auto mt-6 flex items-center justify-center gap-3 text-[10px] font-medium uppercase tracking-[0.25em] text-neutral-700">
@@ -67,7 +70,7 @@ export default function SubscriptionsPage() {
                         </div>
 
                         <ul className="mb-4 list-inside list-disc space-y-1 text-neutral-300">
-                          {sub.features.map((f) => (
+                          {sub.features[lang].map((f) => (
                             <li key={f}>{f}</li>
                           ))}
                         </ul>
@@ -91,7 +94,7 @@ export default function SubscriptionsPage() {
                             className="group relative flex items-center justify-center overflow-hidden rounded-lg bg-neutral-800 px-3 py-2 text-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-500 hover:text-neutral-900 hover:shadow-[0_0_25px_rgba(16,185,129,0.22)]"
                           >
                             <span className="relative z-10">
-                              შესაძენად დაგვიკავშირდით
+                              {t("subs.contact")}
                             </span>
 
                             <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
@@ -111,7 +114,7 @@ export default function SubscriptionsPage() {
                               className="group relative flex items-center justify-center overflow-hidden rounded-lg bg-neutral-800 px-3 py-2 text-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-500 hover:text-neutral-900 hover:shadow-[0_0_25px_rgba(16,185,129,0.22)]"
                             >
                               <span className="relative z-10">
-                                თამაშების სია
+                                {t("subs.gamesList")}
                               </span>
 
                               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />

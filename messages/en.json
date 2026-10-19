@@ -1,0 +1,66 @@
+{
+  "combo": {
+    "badge": "COMBO OFFERS",
+    "title": "Best Combos",
+    "subtitle": "Choose the best combos and get several games in one offer.",
+    "store": "PASSME DIGITAL STORE"
+  },
+  "nav": {
+    "allGames": "All Games",
+    "psPlus": "PS PLUS",
+    "combo": "Combo",
+    "instructions": "Instructions"
+  },
+  "header": {
+    "title": "⚽️🔥 The new EA SPORTS FC 27 is now available! 🚀",
+    "subtitle": "Build your team, start a new season, and play football like never before! ⚽️🏆",
+    "allGames": "All Games",
+    "combo": "Combos",
+    "topGames": "🏆 TOP Games",
+    "instructions": "Instructions"
+  },
+  "why": {
+    "heading": "Everything made simple",
+    "choiceTitle": "Wide selection",
+    "choiceText": "Choose games and combos at a price that works for you.",
+    "fastTitle": "Fast purchase",
+    "fastText": "Contact us and get the info you need with ease.",
+    "guideTitle": "Easy instructions",
+    "guideText": "Use our video guides to add your account.",
+    "reviewTitle": "Happy with Passme?",
+    "reviewText": "Leave a review and share your experience with others.",
+    "reviewButton": "Leave a review ⭐"
+  },
+  "limitedOffer": {
+    "offerTitle": "⚽️🔥 The new EA SPORTS FC 27 is now available! 🚀",
+    "offerSubtitle": "FC 27 — special offer ⚽🔥",
+    "promotionEnded": "The promotion has ended 🎮"
+  },
+  "games": {
+    "collection": "PASSME COLLECTION",
+    "title": "Find your game 🎮",
+    "subtitle": "Find the game you want and discover the best offers at Passme Digital Store.",
+    "store": "PASSME DIGITAL STORE",
+    "searchPlaceholder": "Search for a game...",
+    "searching": "Search:",
+    "allAvailable": "All available games",
+    "gamesCount": "games",
+    "notFound": "No game found",
+    "tryAnother": "Try searching by a different name.",
+    "viewAll": "View all games"
+  },
+  "subs": {
+    "badge": "PLAYSTATION PLUS",
+    "title": "PS Plus Subscriptions",
+    "subtitle": "Choose the PS Plus subscription that suits you and get access to the best games and features.",
+    "store": "PASSME DIGITAL STORE",
+    "contact": "Contact us to purchase",
+    "gamesList": "Games list"
+  },
+  "modal": {
+    "button": "View details",
+    "title": "Primary / Secondary",
+    "primary": "A Primary account means you play your purchased games from your main profile — all progress and saves are tied to your main user, and you won't need to switch to another user to start a game.",
+    "secondary": "A Secondary account means you play your purchased games from the account I provide — so all saves and progress are tied to a specific user, and you'll need to switch to that user to play your purchased game."
+  }
+}

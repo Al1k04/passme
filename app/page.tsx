@@ -1,9 +1,13 @@
+"use client";
 import Slider from "./components/Slider";
 import Link from "next/link";
 import ScrollReveal from "./components/ScrollReveal";
 import SaleTimer from "./components/SaleTimer";
+import { useLanguage } from "./context/LanguageContext";
 
 export default function Home() {
+  const { t } = useLanguage();
+
   return (
     <main className="overflow-hidden">
       <section className="relative px-4 pt-10 pb-14 sm:pt-16 sm:pb-20">
@@ -20,12 +24,11 @@ export default function Home() {
           </h1>
 
           <h2 className="mt-3 text-xl font-bold text-emerald-400 sm:text-3xl">
-            ⚽️🔥 ახალი EA SPORTS FC 27 უკვე ხელმისაწვდომია! 🚀
+            {t("header.title")}
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-neutral-400 sm:text-base">
-            შექმენი შენი გუნდი, დაიწყე ახალი სეზონი და ითამაშე ფეხბურთი ისე,
-            როგორც არასდროს! ⚽️🏆
+            {t("header.subtitle")}
           </p>
 
           <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
@@ -33,7 +36,7 @@ export default function Home() {
               href="/games"
               className="group relative overflow-hidden rounded-xl bg-emerald-500 px-6 py-3 font-bold text-neutral-950 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(16,185,129,0.3)]"
             >
-              <span className="relative z-10">ყველა თამაში 🎮</span>
+              <span className="relative z-10">{t("header.allGames")}</span>
               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
             </Link>
 
@@ -41,14 +44,13 @@ export default function Home() {
               href="/combo"
               className="group relative overflow-hidden rounded-xl border border-emerald-500/40 bg-neutral-900 px-6 py-3 font-bold text-neutral-100 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-400 hover:text-emerald-400 hover:shadow-[0_0_30px_rgba(16,185,129,0.18)]"
             >
-              <span className="relative z-10">კომბოები ⚡</span>
+              <span className="relative z-10">{t("header.combo")} </span>
               <span className="absolute inset-0 -translate-x-full bg-emerald-500/10 transition-transform duration-500 group-hover:translate-x-full" />
             </Link>
           </div>
 
           <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-emerald-400 sm:text-xs">
-            <span className="text-sm">🏆</span>
-            <Link href="/top-games">TOP თამაშები</Link>
+            <Link href="/top-games">{t("header.topGames")}</Link>
           </div>
         </div>
       </section>
@@ -100,7 +102,7 @@ export default function Home() {
             </p>
 
             <h2 className="mt-2 text-2xl font-bold text-neutral-100 sm:text-3xl">
-              ყველაფერი მარტივად
+              {t("why.heading")}
             </h2>
           </div>
 
@@ -111,11 +113,11 @@ export default function Home() {
               </div>
 
               <h3 className="mt-4 text-lg font-bold text-neutral-100">
-                დიდი არჩევანი
+                {t("why.choiceTitle")}
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-neutral-500">
-                აირჩიე თამაშები და კომბოები შენთვის სასურველ ფასად.
+                {t("why.choiceText")}
               </p>
             </div>
 
@@ -125,11 +127,11 @@ export default function Home() {
               </div>
 
               <h3 className="mt-4 text-lg font-bold text-neutral-100">
-                სწრაფი შეძენა
+                {t("why.fastTitle")}
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-neutral-500">
-                დაგვიკავშირდი და მიიღე საჭირო ინფორმაცია მარტივად.
+                {t("why.fastText")}
               </p>
             </div>
 
@@ -139,11 +141,11 @@ export default function Home() {
               </div>
 
               <h3 className="mt-4 text-lg font-bold text-neutral-100">
-                მარტივი ინსტრუქცია
+                {t("why.guideTitle")}
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-neutral-500">
-                გამოიყენე ჩვენი ვიდეო ინსტრუქციები ანგარიშის დასამატებლად.
+                {t("why.guideText")}
               </p>
             </div>
           </div>
@@ -159,18 +161,18 @@ export default function Home() {
               <span className="text-3xl">⭐</span>
 
               <h2 className="mt-3 text-2xl font-bold text-neutral-100 sm:text-3xl">
-                კმაყოფილი ხარ Passme-ით?
+                {t("why.reviewTitle")}
               </h2>
 
               <p className="mx-auto mt-3 max-w-xl text-sm text-neutral-400">
-                დაგვიტოვე შეფასება და გაუზიარე შენი გამოცდილება სხვებს.
+                {t("why.reviewText")}
               </p>
 
               <Link
                 href="/review"
                 className="group relative mt-6 inline-flex overflow-hidden rounded-xl bg-emerald-500 px-6 py-3 font-bold text-neutral-950 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(16,185,129,0.3)]"
               >
-                <span className="relative z-10">შეფასების დატოვება ⭐</span>
+                <span className="relative z-10"> {t("why.reviewButton")}</span>
                 <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
               </Link>
             </div>

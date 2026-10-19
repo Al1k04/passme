@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useLanguage } from "../context/LanguageContext";
 
 const SALE_END = new Date("2026-10-10T23:59:59");
 
@@ -31,6 +32,7 @@ function TimeCard({ value, label }: { value: number; label: string }) {
 }
 
 export default function SaleTimer() {
+  const { t } = useLanguage();
   const [time, setTime] = useState<{
     days: number;
     hours: number;
@@ -70,16 +72,16 @@ export default function SaleTimer() {
         </div>
 
         <h3 className="text-xl font-black tracking-tight text-neutral-100 sm:text-2xl">
-          ⚽️🔥 ახალი EA SPORTS FC 27 უკვე ხელმისაწვდომია! 🚀
+          {t("limitedOffer.offerTitle")}
         </h3>
 
         <p className="mt-1 text-xs text-neutral-500 sm:text-sm">
-          FC 27 — სპეციალური შეთავაზება ⚽🔥
+          {t("limitedOffer.offerSubtitle")}
         </p>
 
         {isFinished ? (
           <div className="mt-6 rounded-xl border border-neutral-800 bg-neutral-900/40 p-5 text-sm font-bold text-neutral-300">
-            აქცია დასრულდა 🎮
+            {t("limitedOffer.promotionEnded")}
           </div>
         ) : (
           <div className="mt-6 flex items-center gap-1.5 sm:gap-3">

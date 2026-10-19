@@ -6,6 +6,7 @@ import GameCards from "./GameCards";
 import { IoClose, IoSearch } from "react-icons/io5";
 import ScrollReveal from "@/app/components/ScrollReveal";
 import GenreFilter from "./GenreFilter";
+import { useLanguage } from "../context/LanguageContext";
 type Props = {
   games: Game[];
   genres: string[];
@@ -13,6 +14,7 @@ type Props = {
 };
 
 export default function GameSearch({ games, genres, selected }: Props) {
+  const { t } = useLanguage();
   const [query, setQuery] = useState("");
 
   const filtered = games.filter((game) =>
@@ -33,12 +35,11 @@ export default function GameSearch({ games, genres, selected }: Props) {
               </div>
 
               <h1 className="text-3xl font-black tracking-tight text-white sm:text-5xl">
-                მოძებნე შენი თამაში 🎮
+                {t("games.title")}
               </h1>
 
               <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-neutral-500 sm:text-base">
-                მოძებნე სასურველი თამაში და აღმოაჩინე საუკეთესო შეთავაზებები
-                Passme Digital Store-ში.
+                {t("games.subtitle")}
               </p>
 
               <div className="mx-auto mt-6 flex items-center justify-center gap-3 text-[10px] font-medium uppercase tracking-[0.25em] text-neutral-700">
@@ -61,7 +62,7 @@ export default function GameSearch({ games, genres, selected }: Props) {
                     <input
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
-                      placeholder="მოძებნე თამაში..."
+                      placeholder={t("games.searchPlaceholder")}
                       className="min-w-0 flex-1 bg-transparent px-1 text-sm text-neutral-100 outline-none placeholder:text-neutral-600 sm:text-base"
                     />
 
@@ -81,11 +82,13 @@ export default function GameSearch({ games, genres, selected }: Props) {
 
               <div className="mt-3 flex items-center justify-between px-1 text-xs">
                 <span className="text-neutral-600">
-                  {query ? `ძიება: "${query}"` : "ყველა ხელმისაწვდომი თამაში"}
+                  {query
+                    ? `{t("games.searching")}: "${query}"`
+                    : t("games.allAvailable")}
                 </span>
 
                 <span className="rounded-full border border-neutral-800 bg-neutral-900 px-3 py-1 text-neutral-500">
-                  {filtered.length} თამაში
+                  {filtered.length} {t("games.gamesCount")}
                 </span>
               </div>
             </div>
@@ -115,18 +118,18 @@ export default function GameSearch({ games, genres, selected }: Props) {
             </div>
 
             <h2 className="mt-5 text-xl font-bold text-neutral-200">
-              თამაში ვერ მოიძებნა
+              {t("games.notFound")}
             </h2>
 
             <p className="mt-2 text-sm text-neutral-500">
-              სცადე სხვა სახელით მოძებნა.
+              {t("games.tryAnother")}
             </p>
 
             <button
               onClick={() => setQuery("")}
               className="group relative mt-5 overflow-hidden rounded-xl bg-neutral-800 px-5 py-2.5 text-sm font-semibold text-neutral-200 transition-all duration-300 hover:-translate-y-1 hover:bg-emerald-500 hover:text-neutral-950 hover:shadow-[0_0_20px_rgba(16,185,129,0.2)]"
             >
-              <span className="relative z-10">ყველა თამაშის ნახვა</span>
+              <span className="relative z-10"> {t("games.viewAll")}ა</span>
 
               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
             </button>
