@@ -70,7 +70,7 @@ export default function SubscriptionsPage() {
                         </div>
 
                         <ul className="mb-4 list-inside list-disc space-y-1 text-neutral-300">
-                          {sub.features[lang].map((f) => (
+                          {sub.features[lang as "ka" | "ru" | "en"].map((f) => (
                             <li key={f}>{f}</li>
                           ))}
                         </ul>

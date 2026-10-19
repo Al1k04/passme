@@ -40,7 +40,7 @@ export default function Instructions() {
               {instructions.map((instruction) => (
                 <InstructionCard
                   key={instruction.id}
-                  title={instruction.title[lang]}
+                  title={instruction.title[lang as "ka" | "ru" | "en"]}
                   url={instruction.url}
                 />
               ))}
