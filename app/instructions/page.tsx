@@ -1,7 +1,11 @@
+"use client";
+
 import instructions from "@/data/instructions.json";
 import InstructionCard from "./InstructionCard";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Instructions() {
+  const { t, lang } = useLanguage();
   return (
     <main className="min-h-screen overflow-hidden bg-neutral-950">
       <section className="relative px-4 pb-16 pt-12 sm:pt-16">
@@ -15,12 +19,11 @@ export default function Instructions() {
             </div>
 
             <h1 className="text-3xl font-black tracking-tight text-white sm:text-5xl">
-              ინსტრუქციები
+              {t("instructions.title")}
             </h1>
 
             <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-neutral-500 sm:text-base">
-              გაეცანი ჩვენს მარტივ ინსტრუქციებს და გაიგე, როგორ დაამატო ანგარიში
-              და გამოიყენო ჩვენი სერვისები.
+              {t("instructions.subtitle")}
             </p>
 
             <div className="mx-auto mt-6 flex items-center justify-center gap-3 text-[10px] font-medium uppercase tracking-[0.25em] text-neutral-700">
@@ -37,7 +40,7 @@ export default function Instructions() {
               {instructions.map((instruction) => (
                 <InstructionCard
                   key={instruction.id}
-                  title={instruction.title}
+                  title={instruction.title[lang]}
                   url={instruction.url}
                 />
               ))}

@@ -62,5 +62,31 @@
     "title": "Primary / Secondary",
     "primary": "A Primary account means you play your purchased games from your main profile — all progress and saves are tied to your main user, and you won't need to switch to another user to start a game.",
     "secondary": "A Secondary account means you play your purchased games from the account I provide — so all saves and progress are tied to a specific user, and you'll need to switch to that user to play your purchased game."
+  },
+  "top": {
+    "badge": "TOP games",
+    "title": "Most popular games",
+    "subtitle": "Discover our best selection of games and choose your next favorite.",
+    "store": "PASSME DIGITAL STORE"
+  },
+  "card": {
+    "inStock": "In stock",
+    "outStock": "Out of stock",
+    "contact": "Contact us to purchase"
+  },
+  "instructions": {
+    "badge": "PASSME GUIDE",
+    "title": "Instructions",
+    "subtitle": "Check out our simple guides and learn how to add an account and use our services.",
+    "store": "PASSME DIGITAL STORE"
+  },
+  "contact": "Message us here to buy",
+  "review": {
+    "badge": "PASSME COMMUNITY",
+    "titleLine1": "Your opinion means",
+    "titleLine2": "a lot to us ❤️",
+    "subtitle": "We'd be very grateful if you left a review on our page. Your feedback helps us get even better.",
+    "cardText": "A single review from you means a lot to us.",
+    "button": "Leave a review ❤️"
   }
 }

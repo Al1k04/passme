@@ -1,7 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import ScrollReveal from "../components/ScrollReveal";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Review() {
+  const { t } = useLanguage();
   return (
     <main className="relative min-h-[70vh] overflow-hidden px-4 py-10 sm:py-16">
       <div className="pointer-events-none absolute left-1/2 top-10 -z-10 h-80 w-80 -translate-x-1/2 rounded-full bg-emerald-500/10 blur-3xl" />
@@ -14,15 +18,14 @@ export default function Review() {
           </div>
 
           <h1 className="text-3xl font-black leading-tight text-neutral-100 sm:text-5xl">
-            შენი აზრი ჩვენთვის
+            {t("review.titleLine1")}
             <span className="block text-emerald-400">
-              ძალიან მნიშვნელოვანია ❤️
+              {t("review.titleLine2")}
             </span>
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-neutral-400 sm:text-base">
-            დიდი მადლობელი დაგრჩებით თუ დატოვებთ შეფასებას ჩვენს გვერდზე. შენი
-            შეფასება გვეხმარება გავხდეთ კიდევ უფრო უკეთესი.
+            {t("review.subtitle")}
           </p>
 
           <div className="group relative mx-auto mt-10 max-w-2xl overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900 p-3 shadow-[0_0_50px_rgba(0,0,0,0.3)] transition-all duration-500 hover:-translate-y-1 hover:border-emerald-500/50 hover:shadow-[0_0_50px_rgba(16,185,129,0.12)]">
@@ -47,9 +50,7 @@ export default function Review() {
                 <span>⭐</span>
               </div>
 
-              <p className="text-sm text-neutral-500">
-                შენი ერთი შეფასება ჩვენთვის ძალიან მნიშვნელოვანია.
-              </p>
+              <p className="text-sm text-neutral-500">{t("review.cardText")}</p>
 
               <Link
                 href="https://www.facebook.com/profile.php?id=100093207031308"
@@ -57,7 +58,7 @@ export default function Review() {
                 rel="noopener noreferrer"
                 className="group/button relative mt-6 inline-flex w-full items-center justify-center overflow-hidden rounded-xl bg-emerald-500 px-6 py-3 font-bold text-neutral-950 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(16,185,129,0.3)]"
               >
-                <span className="relative z-10">დატოვე შეფასება ❤️</span>
+                <span className="relative z-10">{t("review.button")}</span>
 
                 <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover/button:translate-x-full" />
               </Link>

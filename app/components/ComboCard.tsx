@@ -1,12 +1,15 @@
+"use client";
 import { Combo } from "@/types/combo";
 import { FaFacebook } from "react-icons/fa";
 import ScrollReveal from "@/app/components/ScrollReveal";
+import { useLanguage } from "../context/LanguageContext";
 
 type ComboCardProps = {
   combo: Combo;
 };
 
 export default function ComboCard({ combo }: ComboCardProps) {
+  const { t } = useLanguage();
   const count = combo.images.length;
 
   return (
@@ -80,7 +83,7 @@ export default function ComboCard({ combo }: ComboCardProps) {
               rel="noopener noreferrer"
               className="relative flex items-center gap-2 overflow-hidden rounded-lg bg-neutral-800 px-3 py-2 text-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-500 hover:text-neutral-900 hover:shadow-[0_0_25px_rgba(16,185,129,0.22)]"
             >
-              <span className="relative z-10">შესაძენად აქ მოგვწერეთ</span>
+              <span className="relative z-10">{t("contact")}</span>
               <FaFacebook className="relative z-10 w-5 h-5" />
               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
             </a>

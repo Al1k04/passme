@@ -1,13 +1,17 @@
+"use client";
+
 import { Game } from "@prisma/client";
 import { FaFacebook } from "react-icons/fa";
 import ScrollReveal from "@/app/components/ScrollReveal";
 import Image from "next/image";
+import { useLanguage } from "../context/LanguageContext";
 
 type GameCardProps = {
   game: Game;
 };
 
 export default function GameCards({ game }: GameCardProps) {
+  const { t } = useLanguage();
   return (
     <ScrollReveal>
       <li className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 transition-all duration-500 hover:-translate-y-1 hover:border-emerald-500/70 hover:shadow-[0_0_30px_rgba(16,185,129,0.12)]">
@@ -59,7 +63,7 @@ export default function GameCards({ game }: GameCardProps) {
                   : "border-neutral-700 bg-neutral-800 text-neutral-500"
               }`}
             >
-              PS4: {game.ps4Stock > 0 ? "მარაგშია" : "არ არის მარაგში"}
+              PS4: {game.ps4Stock > 0 ? t("card.inStock") : t("card.outStock")}
             </span>
 
             <span
@@ -69,7 +73,7 @@ export default function GameCards({ game }: GameCardProps) {
                   : "border-neutral-700 bg-neutral-800 text-neutral-500"
               }`}
             >
-              PS5: {game.ps5Stock > 0 ? "მარაგშია" : "არ არის მარაგში"}
+              PS5: {game.ps5Stock > 0 ? t("card.inStock") : t("card.outStock")}
             </span>
           </div>
 
@@ -79,7 +83,7 @@ export default function GameCards({ game }: GameCardProps) {
             rel="noopener noreferrer"
             className="mt-auto flex items-center justify-center gap-2 rounded-lg bg-neutral-800 px-3 py-2 text-sm transition-all duration-300 hover:bg-emerald-500 hover:text-neutral-900 hover:shadow-[0_0_20px_rgba(16,185,129,0.2)]"
           >
-            შესაძენად დაგვიკავშირდით
+            {t("card.contact")}
             <FaFacebook className="h-5 w-5" />
           </a>
         </div>
