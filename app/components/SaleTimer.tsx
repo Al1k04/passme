@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 
-const SALE_END = new Date("2026-10-10T23:59:59");
+const SALE_END = new Date("2026-11-03T23:59:59");
 
 function getTimeLeft() {
   const diff = Math.max(0, SALE_END.getTime() - Date.now());
