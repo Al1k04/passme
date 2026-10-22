@@ -73,7 +73,8 @@
     "price": 39,
     "oldPrice": 55,
     "images": [
-      "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP0006-PPSA02424_00-HAZELIGHTBUNDLE5/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-PPSA02343_00-ITTAKESTWORETAIL/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336",
+      "https://store.playstation.com/store/api/chihiro/00_09_000/container/UA/ru/99/EP0006-CUSA08004_00-AWAYOUTEU0000000/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=336&h=336"
     ],
     "slug": "it-takes-two-a-way-out"
   },

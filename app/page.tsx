@@ -77,7 +77,7 @@ export default function Home() {
             <div
               className="absolute inset-0 scale-110 bg-cover bg-center blur-xl"
               style={{
-                backgroundImage: "url('/banners/disc_fc27.jpg')",
+                backgroundImage: "url('/banners/october_disc1.jpg')",
               }}
             />
 
