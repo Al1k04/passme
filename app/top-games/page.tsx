@@ -18,7 +18,7 @@ export default async function TopGames() {
           </h1>
           <ul className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4">
             {games.map((game) => (
-              <GameCards key={game.id} game={game} showPs4={false} />
+              <GameCards key={game.id} game={game} />
             ))}
           </ul>
         </div>
