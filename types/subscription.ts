@@ -2,7 +2,14 @@ export type Subscription = {
   id: number;
   slug: string;
   title: string;
-  duration: string;
-  prices: { label: string; value: number }[];
-  features: string[];
+  images: string[];
+  periods: {
+    months: number;
+    prices: { label: string; value: number }[];
+  }[];
+  features: {
+    ka: string[];
+    ru: string[];
+    en: string[];
+  };
 };

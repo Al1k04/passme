@@ -5,8 +5,8 @@ import en from "@/messages/en.json";
 import { createContext, useState, useContext, ReactNode } from "react";
 
 type LanguageContextType = {
-  lang: string;
-  setLang: (lang: string) => void;
+  lang: "ka" | "ru" | "en";
+  setLang: (lang: "ka" | "ru" | "en") => void;
   t: (key: string) => string;
 };
 
@@ -23,7 +23,7 @@ export function useLanguage() {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState("ka");
+  const [lang, setLang] = useState<"ka" | "ru" | "en">("ka");
   const messages = { ka, ru, en };
 
   const t = (key: string) => {
