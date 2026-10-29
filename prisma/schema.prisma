@@ -24,6 +24,8 @@ model Game {
   pricePrimaryPs4   Int?
   priceSecondaryPs5 Int?
   priceSecondaryPs4 Int?
+  priceUkraine      Int?
+  priceTurkey       Int?
   inventoryAliases  InventoryAlias[]
 }
 

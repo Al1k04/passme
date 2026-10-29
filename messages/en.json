@@ -88,5 +88,11 @@
     "subtitle": "We'd be very grateful if you left a review on our page. Your feedback helps us get even better.",
     "cardText": "A single review from you means a lot to us.",
     "button": "Leave a review ❤️"
+  },
+  "gamecard": {
+    "gameCardTitleLine": "Choose your preferred version and contact us to purchase your game.",
+    "gameCardTitleLine2": "Personal account",
+    "gameCardOptions": "Available options",
+    "gamecardOptionsSubTitle": "Choose the option that suits you"
   }
 }

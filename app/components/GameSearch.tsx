@@ -101,7 +101,7 @@ export default function GameSearch({ games, genres, selected }: Props) {
           <div className="relative rounded-3xl border border-neutral-800 bg-neutral-900/30 p-3 shadow-[0_0_60px_rgba(0,0,0,0.3)] sm:p-5">
             <div className="pointer-events-none absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
 
-            <ul className="grid grid-cols-1 gap-7 p-0 sm:grid-cols-2 lg:grid-cols-4">
+            <ul className="grid grid-cols-2 gap-3 p-0 sm:gap-5 lg:grid-cols-4">
               {filtered.map((game) => {
                 console.log("GAME IN SEARCH:", game);
 
