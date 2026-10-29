@@ -30,8 +30,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col overflow-x-clip bg-neutral-950">
         <LanguageProvider>
-          {/* Фиксированная шапка: прилипает к верху при прокрутке */}
-          <div className="sticky top-0 z-50">
+          {/* Фиксированная шапка с прозрачным фоном */}
+          <div className="sticky top-0 z-50 bg-transparent [&>*]:bg-transparent!">
             <Header />
           </div>
 

@@ -12,6 +12,8 @@ type GameCardProps = {
   showPs4?: boolean;
 };
 
+const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=100093207031308";
+
 export default function GameCards({ game, showPs4 = true }: GameCardProps) {
   const { t } = useLanguage();
 
@@ -81,19 +83,19 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
           </div>
 
           {/* Title + region prices */}
-          <div className="absolute inset-x-2 bottom-2 z-10 flex flex-col gap-1 pr-9 sm:inset-x-4 sm:bottom-3 sm:gap-1.5 sm:pr-12">
+          <div className="absolute inset-x-2 bottom-2 z-10 flex flex-col gap-1 sm:inset-x-4 sm:bottom-3 sm:gap-1.5 sm:pr-12">
             <h2 className="line-clamp-2 text-sm font-extrabold leading-tight tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] sm:text-lg">
               {game.title}
             </h2>
 
             {regionPrices.length > 0 && (
-              <div className="flex flex-col items-start gap-1">
+              <div className="flex flex-col items-stretch gap-1 sm:items-start">
                 {regionPrices.map((r) => (
                   <span
                     key={r.key}
-                    className="flex max-w-full items-center gap-1 whitespace-nowrap rounded-md border border-white/15 bg-black/55 px-1 py-0.5 text-[9px] font-bold text-emerald-300 backdrop-blur-md sm:gap-1.5 sm:px-1.5 sm:text-xs"
+                    className="flex max-w-full items-center justify-between gap-1 whitespace-nowrap rounded-md border border-white/15 bg-black/55 px-1.5 py-0.5 text-[9px] font-bold text-emerald-300 backdrop-blur-md sm:justify-start sm:gap-1.5 sm:text-xs"
                   >
-                    <span className="font-semibold leading-none text-white/90">
+                    <span className="min-w-0 truncate font-semibold leading-none text-white/90">
                       პირად ექაუნთზე
                     </span>
                     <span className="flex shrink-0 items-center gap-0.5 sm:gap-1">
@@ -110,14 +112,16 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
         </Link>
 
         {/* Contact: круглая иконка справа под тайтлом */}
-        <Link
-          href={`/games/${game.slug}`}
+        <a
+          href={FACEBOOK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label={t("card.contact")}
           title={t("card.contact")}
-          className="absolute bottom-1.5 right-1.5 z-20 flex h-7 w-7 items-center justify-center rounded-full border border-emerald-400/50 bg-black/50 text-emerald-300 backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-400 hover:text-neutral-950 hover:shadow-[0_0_22px_rgba(16,185,129,0.5)] sm:bottom-3 sm:right-4 sm:h-10 sm:w-10"
+          className="absolute right-1.5 top-1.5 z-20 flex h-7 w-7 items-center justify-center rounded-full border border-emerald-400/50 bg-black/50 text-emerald-300 backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-400 hover:text-neutral-950 hover:shadow-[0_0_22px_rgba(16,185,129,0.5)] sm:bottom-3 sm:right-4 sm:top-auto sm:h-10 sm:w-10"
         >
           <FaFacebook className="h-4 w-4 sm:h-5 sm:w-5" />
-        </Link>
+        </a>
       </div>
 
       {/* Info */}
