@@ -10,10 +10,18 @@ export default function GameDetails({ game }: { game: Game }) {
   const { t } = useLanguage();
 
   const prices = [
-    { label: "Primary PS5", value: game.pricePrimaryPs5 },
-    { label: "Primary PS4", value: game.pricePrimaryPs4 },
-    { label: "Secondary PS5", value: game.priceSecondaryPs5 },
-    { label: "Secondary PS4", value: game.priceSecondaryPs4 },
+    { label: "Primary PS5", value: game.pricePrimaryPs5, stock: game.ps5Stock },
+    { label: "Primary PS4", value: game.pricePrimaryPs4, stock: game.ps4Stock },
+    {
+      label: "Secondary PS5",
+      value: game.priceSecondaryPs5,
+      stock: game.ps5Stock,
+    },
+    {
+      label: "Secondary PS4",
+      value: game.priceSecondaryPs4,
+      stock: game.ps4Stock,
+    },
   ].filter((p) => p.value !== null);
 
   const regionPrices = [
@@ -200,39 +208,64 @@ export default function GameDetails({ game }: { game: Game }) {
               </div>
 
               <div className="grid grid-cols-2 gap-2 sm:gap-3">
-                {prices.map((p) => (
-                  <div
-                    key={p.label}
-                    className="group/price relative flex min-w-0 flex-col items-start gap-3 overflow-hidden rounded-xl border border-emerald-500/15 bg-neutral-950/60 p-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500/50 hover:bg-emerald-500/[0.05] hover:shadow-[0_0_20px_rgba(16,185,129,0.07)] sm:p-4"
-                  >
-                    <div className="flex min-w-0 items-center gap-2 sm:gap-3">
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-400 transition-colors duration-300 group-hover/price:bg-emerald-500/20">
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="1.8"
-                          className="h-4 w-4"
-                          aria-hidden="true"
+                {prices.map((p) => {
+                  const inStock = p.stock > 0;
+
+                  return (
+                    <div
+                      key={p.label}
+                      className={`group/price relative flex min-w-0 flex-col items-start gap-3 overflow-hidden rounded-xl border bg-neutral-950/60 p-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500/50 hover:bg-emerald-500/[0.05] hover:shadow-[0_0_20px_rgba(16,185,129,0.07)] sm:p-4 ${
+                        inStock
+                          ? "border-emerald-500/15"
+                          : "border-neutral-800 opacity-70"
+                      }`}
+                    >
+                      <div className="flex min-w-0 items-center gap-2 sm:gap-3">
+                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-400 transition-colors duration-300 group-hover/price:bg-emerald-500/20">
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.8"
+                            className="h-4 w-4"
+                            aria-hidden="true"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 3v18m5-14H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                            />
+                          </svg>
+                        </span>
+
+                        <span className="break-words text-xs font-semibold leading-tight text-neutral-300 transition-colors duration-300 group-hover/price:text-white sm:text-sm">
+                          {p.label}
+                        </span>
+                      </div>
+
+                      <div className="flex w-full flex-col gap-1">
+                        <span className="text-lg font-extrabold text-emerald-400 transition-all duration-300 group-hover/price:drop-shadow-[0_0_8px_rgba(16,185,129,0.45)] sm:text-xl">
+                          {formatPrice(p.value)}
+                        </span>
+
+                        <span
+                          className={`flex items-center gap-1.5 text-[11px] font-semibold ${
+                            inStock ? "text-emerald-400" : "text-neutral-500"
+                          }`}
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 3v18m5-14H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                          <span
+                            className={`h-1.5 w-1.5 rounded-full ${
+                              inStock
+                                ? "bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.9)]"
+                                : "bg-neutral-600"
+                            }`}
                           />
-                        </svg>
-                      </span>
-
-                      <span className="break-words text-xs font-semibold leading-tight text-neutral-300 transition-colors duration-300 group-hover/price:text-white sm:text-sm">
-                        {p.label}
-                      </span>
+                          {inStock ? t("card.inStock") : t("card.outStock")}
+                        </span>
+                      </div>
                     </div>
-
-                    <span className="text-lg font-extrabold text-emerald-400 transition-all duration-300 group-hover/price:drop-shadow-[0_0_8px_rgba(16,185,129,0.45)] sm:text-xl">
-                      {formatPrice(p.value)}
-                    </span>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
