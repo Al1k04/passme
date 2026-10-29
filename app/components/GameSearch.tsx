@@ -7,6 +7,7 @@ import { IoClose, IoSearch } from "react-icons/io5";
 import ScrollReveal from "@/app/components/ScrollReveal";
 import GenreFilter from "./GenreFilter";
 import { useLanguage } from "../context/LanguageContext";
+
 type Props = {
   games: Game[];
   genres: string[];
@@ -77,13 +78,14 @@ export default function GameSearch({ games, genres, selected }: Props) {
                     )}
                   </div>
                 </div>
+
                 <GenreFilter genres={genres} selected={selected} />
               </div>
 
               <div className="mt-3 flex items-center justify-between px-1 text-xs">
                 <span className="text-neutral-600">
                   {query
-                    ? `{t("games.searching")}: "${query}"`
+                    ? `${t("games.searching")}: "${query}"`
                     : t("games.allAvailable")}
                 </span>
 
@@ -102,11 +104,9 @@ export default function GameSearch({ games, genres, selected }: Props) {
             <div className="pointer-events-none absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent" />
 
             <ul className="grid grid-cols-2 gap-3 p-0 sm:gap-5 lg:grid-cols-4">
-              {filtered.map((game) => {
-                console.log("GAME IN SEARCH:", game);
-
-                return <GameCards key={game.id} game={game} />;
-              })}
+              {filtered.map((game) => (
+                <GameCards key={game.id} game={game} />
+              ))}
             </ul>
           </div>
         </section>
@@ -129,7 +129,7 @@ export default function GameSearch({ games, genres, selected }: Props) {
               onClick={() => setQuery("")}
               className="group relative mt-5 overflow-hidden rounded-xl bg-neutral-800 px-5 py-2.5 text-sm font-semibold text-neutral-200 transition-all duration-300 hover:-translate-y-1 hover:bg-emerald-500 hover:text-neutral-950 hover:shadow-[0_0_20px_rgba(16,185,129,0.2)]"
             >
-              <span className="relative z-10"> {t("games.viewAll")}ა</span>
+              <span className="relative z-10">{t("games.viewAll")}</span>
 
               <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-full" />
             </button>
