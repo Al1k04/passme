@@ -80,6 +80,7 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
             )}
           </div>
 
+          {/* Title + region prices */}
           <div className="absolute inset-x-2 bottom-2 z-10 flex flex-col gap-1 pr-9 sm:inset-x-4 sm:bottom-3 sm:gap-1.5 sm:pr-12">
             <h2 className="line-clamp-2 text-sm font-extrabold leading-tight tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] sm:text-lg">
               {game.title}
@@ -93,7 +94,7 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
                     className="flex max-w-full items-center gap-1 whitespace-nowrap rounded-md border border-white/15 bg-black/55 px-1 py-0.5 text-[9px] font-bold text-emerald-300 backdrop-blur-md sm:gap-1.5 sm:px-1.5 sm:text-xs"
                   >
                     <span className="font-semibold leading-none text-white/90">
-                      {t("card.ownAccount")}
+                      პირად ექაუნთზე
                     </span>
                     <span className="flex shrink-0 items-center gap-0.5 sm:gap-1">
                       <span className="text-[10px] leading-none sm:text-xs">
@@ -108,6 +109,7 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
           </div>
         </Link>
 
+        {/* Contact: круглая иконка справа под тайтлом */}
         <Link
           href={`/games/${game.slug}`}
           aria-label={t("card.contact")}
@@ -118,9 +120,11 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
         </Link>
       </div>
 
-      <div className="relative flex flex-1 flex-col gap-2 p-2 sm:gap-3 sm:p-3">
+      {/* Info */}
+      <div className="relative flex flex-1 flex-col gap-2 p-1.5 sm:gap-3 sm:p-3">
+        {/* Variants: сетка 2×2 — все цены видны сразу, без прокрутки */}
         {variants.length > 0 && (
-          <div className="grid grid-cols-2 gap-1.5">
+          <div className="grid grid-cols-2 gap-1 sm:gap-1.5">
             {variants.map((v) => {
               const active = v.key === selected?.key;
               return (
@@ -128,17 +132,17 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
                   key={v.key}
                   type="button"
                   onClick={() => setSelectedKey(v.key)}
-                  className={`flex min-w-0 items-center justify-between gap-1 rounded-lg border px-1.5 py-1.5 text-left transition-all duration-300 sm:gap-1.5 sm:rounded-xl sm:px-2 sm:py-2.5 ${
+                  className={`flex min-w-0 items-center justify-between gap-0.5 rounded-lg border px-1 py-1.5 text-left transition-all duration-300 sm:gap-1.5 sm:rounded-xl sm:px-2 sm:py-2.5 ${
                     active
                       ? "border-emerald-400/70 bg-emerald-400/[0.12] shadow-[0_0_16px_rgba(16,185,129,0.22)]"
                       : "border-white/[0.07] bg-white/[0.025] hover:border-emerald-400/30"
                   }`}
                 >
-                  <span className="min-w-0 truncate whitespace-nowrap text-[10px] leading-tight text-neutral-400 sm:text-[11px]">
+                  <span className="whitespace-nowrap text-[9px] leading-tight tracking-tight text-neutral-400 sm:text-[11px] sm:tracking-normal">
                     {v.label}
                   </span>
                   <span
-                    className={`shrink-0 whitespace-nowrap text-[11px] font-extrabold leading-tight sm:text-xs ${
+                    className={`shrink-0 whitespace-nowrap text-[10px] font-extrabold leading-tight tracking-tight sm:text-xs sm:tracking-normal ${
                       active ? "text-emerald-300" : "text-neutral-200"
                     }`}
                   >
