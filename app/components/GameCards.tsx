@@ -64,6 +64,8 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
             alt={game.title}
             fill
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            quality={100}
+            sizes="(max-width: 639px) 48vw, (max-width: 1023px) 45vw, 240px"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[#0b0d0c]" />
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-emerald-950/60 to-transparent" />
@@ -124,9 +126,7 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
         </a>
       </div>
 
-      {/* Info */}
       <div className="relative flex flex-1 flex-col gap-2 p-1.5 sm:gap-3 sm:p-3">
-        {/* Variants: сетка 2×2 — все цены видны сразу, без прокрутки */}
         {variants.length > 0 && (
           <div className="grid grid-cols-2 gap-1 sm:gap-1.5">
             {variants.map((v) => {
