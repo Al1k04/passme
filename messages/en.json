@@ -72,7 +72,8 @@
   "card": {
     "inStock": "In stock",
     "outStock": "Out of stock",
-    "contact": "Contact us to purchase"
+    "contact": "Contact us to purchase",
+    "ownAccount": "Personal Account"
   },
   "instructions": {
     "badge": "PASSME GUIDE",

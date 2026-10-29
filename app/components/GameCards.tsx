@@ -16,22 +16,22 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
   const { t } = useLanguage();
 
   const variants = [
-    { key: "primaryPs5", label: "Primary PS5", value: game.pricePrimaryPs5 },
+    { key: "primaryPs5", label: "Prim PS5", value: game.pricePrimaryPs5 },
     {
       key: "secondaryPs5",
-      label: "Secondary PS5",
+      label: "Sec PS5",
       value: game.priceSecondaryPs5,
     },
     ...(showPs4
       ? [
           {
             key: "primaryPs4",
-            label: "Primary PS4",
+            label: "Prim PS4",
             value: game.pricePrimaryPs4,
           },
           {
             key: "secondaryPs4",
-            label: "Secondary PS4",
+            label: "Sec PS4",
             value: game.priceSecondaryPs4,
           },
         ]
@@ -80,8 +80,7 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
             )}
           </div>
 
-          {/* Title + region prices */}
-          <div className="absolute inset-x-2.5 bottom-2 z-10 flex flex-col gap-1.5 pr-11 sm:inset-x-4 sm:bottom-3 sm:pr-12">
+          <div className="absolute inset-x-2 bottom-2 z-10 flex flex-col gap-1 pr-9 sm:inset-x-4 sm:bottom-3 sm:gap-1.5 sm:pr-12">
             <h2 className="line-clamp-2 text-sm font-extrabold leading-tight tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] sm:text-lg">
               {game.title}
             </h2>
@@ -91,13 +90,15 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
                 {regionPrices.map((r) => (
                   <span
                     key={r.key}
-                    className="flex items-center gap-1.5 rounded-md border border-white/15 bg-black/55 px-1.5 py-0.5 text-[10px] font-bold text-emerald-300 backdrop-blur-md sm:text-xs"
+                    className="flex max-w-full items-center gap-1 whitespace-nowrap rounded-md border border-white/15 bg-black/55 px-1 py-0.5 text-[9px] font-bold text-emerald-300 backdrop-blur-md sm:gap-1.5 sm:px-1.5 sm:text-xs"
                   >
-                    <span className="font-semibold leading-tight text-white/90">
-                      პირად ექაუნთზე
+                    <span className="font-semibold leading-none text-white/90">
+                      {t("card.ownAccount")}
                     </span>
-                    <span className="flex shrink-0 items-center gap-1 whitespace-nowrap">
-                      <span className="text-xs leading-none">{r.flag}</span>
+                    <span className="flex shrink-0 items-center gap-0.5 sm:gap-1">
+                      <span className="text-[10px] leading-none sm:text-xs">
+                        {r.flag}
+                      </span>
                       {r.value} ₾
                     </span>
                   </span>
@@ -107,22 +108,19 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
           </div>
         </Link>
 
-        {/* Contact: круглая иконка справа под тайтлом */}
         <Link
           href={`/games/${game.slug}`}
           aria-label={t("card.contact")}
           title={t("card.contact")}
-          className="absolute bottom-2 right-2.5 z-20 flex h-9 w-9 items-center justify-center rounded-full border border-emerald-400/50 bg-black/50 text-emerald-300 backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-400 hover:text-neutral-950 hover:shadow-[0_0_22px_rgba(16,185,129,0.5)] sm:bottom-3 sm:right-4 sm:h-10 sm:w-10"
+          className="absolute bottom-1.5 right-1.5 z-20 flex h-7 w-7 items-center justify-center rounded-full border border-emerald-400/50 bg-black/50 text-emerald-300 backdrop-blur-md transition-all duration-300 hover:border-emerald-400 hover:bg-emerald-400 hover:text-neutral-950 hover:shadow-[0_0_22px_rgba(16,185,129,0.5)] sm:bottom-3 sm:right-4 sm:h-10 sm:w-10"
         >
-          <FaFacebook className="h-5 w-5" />
+          <FaFacebook className="h-4 w-4 sm:h-5 sm:w-5" />
         </Link>
       </div>
 
-      {/* Info */}
-      <div className="relative flex flex-1 flex-col gap-2 p-2.5 sm:gap-3 sm:p-3">
-        {/* Variants: свайп-ряд на телефоне, сетка 2×2 на десктопе */}
+      <div className="relative flex flex-1 flex-col gap-2 p-2 sm:gap-3 sm:p-3">
         {variants.length > 0 && (
-          <div className="-mx-2.5 flex gap-1.5 overflow-x-auto px-2.5 pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-1.5 sm:overflow-visible sm:px-0">
+          <div className="grid grid-cols-2 gap-1.5">
             {variants.map((v) => {
               const active = v.key === selected?.key;
               return (
@@ -130,17 +128,17 @@ export default function GameCards({ game, showPs4 = true }: GameCardProps) {
                   key={v.key}
                   type="button"
                   onClick={() => setSelectedKey(v.key)}
-                  className={`flex min-w-[140px] shrink-0 items-center justify-between gap-1.5 rounded-lg border px-2 py-2 text-left transition-all duration-300 sm:min-w-0 sm:rounded-xl sm:px-2 sm:py-2.5 ${
+                  className={`flex min-w-0 items-center justify-between gap-1 rounded-lg border px-1.5 py-1.5 text-left transition-all duration-300 sm:gap-1.5 sm:rounded-xl sm:px-2 sm:py-2.5 ${
                     active
                       ? "border-emerald-400/70 bg-emerald-400/[0.12] shadow-[0_0_16px_rgba(16,185,129,0.22)]"
                       : "border-white/[0.07] bg-white/[0.025] hover:border-emerald-400/30"
                   }`}
                 >
-                  <span className="min-w-0 truncate whitespace-nowrap text-[10px] leading-tight text-neutral-400">
+                  <span className="min-w-0 truncate whitespace-nowrap text-[10px] leading-tight text-neutral-400 sm:text-[11px]">
                     {v.label}
                   </span>
                   <span
-                    className={`shrink-0 whitespace-nowrap text-xs font-extrabold leading-tight ${
+                    className={`shrink-0 whitespace-nowrap text-[11px] font-extrabold leading-tight sm:text-xs ${
                       active ? "text-emerald-300" : "text-neutral-200"
                     }`}
                   >

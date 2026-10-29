@@ -72,7 +72,8 @@
   "card": {
     "inStock": "მარაგშია",
     "outStock": "არ არის მარაგში",
-    "contact": "შესაძენად დაგვიკავშირდით"
+    "contact": "შესაძენად დაგვიკავშირდით",
+    "ownAccount": "პირად ექაუნთზე"
   },
   "instructions": {
     "badge": "PASSME GUIDE",

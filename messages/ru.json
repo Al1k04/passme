@@ -72,7 +72,8 @@
   "card": {
     "inStock": "В наличии",
     "outStock": "Нет в наличии",
-    "contact": "Свяжитесь с нами для покупки"
+    "contact": "Свяжитесь с нами для покупки",
+    "ownAccount": "Личный аккаунт"
   },
   "instructions": {
     "badge": "PASSME GUIDE",
